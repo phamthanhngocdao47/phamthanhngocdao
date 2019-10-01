@@ -134,20 +134,6 @@ a {
 #content_con1 .table1{
     color: black;
 }
-#content_con1 #bt_tm{
-    width: 600px;
-
-}
-
-#content_con1 #bt_tm #pre_next{
-    width: 600px;
-    margin-left: 300px;
-    margin-top: 60px;
-}
-#content_con1 #bt_tm #pre_next .btp_n{
-    background: indianred;
-    border-style: none;
-}
 
 #content_con2{
     width: 900px;
@@ -348,6 +334,13 @@ a {
     background: lightslategray;
     margin: 50px 100px;
 }
+#design_1 #background_1{
+    float: left;
+}
+#design_1 .down_pic1{
+    float:right;
+}
+
 #page_ds #design_1 .down_pic1{
     width: 100px;
     margin-top: 40px;
@@ -372,6 +365,14 @@ a {
     background: lightslategray;
     margin: 50px 100px;
 }
+
+#design_2 #background_2{
+    float: left;
+}
+#design_2 .down_pic1{
+    float:right;
+}
+
  .down_1{
     text-decoration: none;
     color: white;
@@ -399,6 +400,14 @@ a {
     background: lightslategray;
     margin: 50px 100px;
 }
+
+#design_3 #background_3{
+    float: left;
+}
+#design_3 .down_pic1{
+    float:right;
+}
+
 .down_1{
     text-decoration: none;
     color: white;
@@ -428,6 +437,13 @@ a {
     background: lightslategray;
     margin: 50px 100px;
 }
+
+#design_4 #background_4{
+    float: left;
+}
+#design_4 .down_pic1{
+    float:right;
+}
 .down_1{
     text-decoration: none;
     color: white;
@@ -455,6 +471,13 @@ a {
     background: lightslategray;
     margin: 50px 100px;
 }
+
+#design_5 #background_5{
+    float: left;
+}
+#design_5 .down_pic1{
+    float:right;
+}
 .down_1{
     text-decoration: none;
     color: white;
@@ -470,7 +493,6 @@ a {
     border-style: none;
 
 }
-
 
 #page_ds #ds_download_all{
    width:  500px;
