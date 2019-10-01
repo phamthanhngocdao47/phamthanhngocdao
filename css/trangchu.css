@@ -38,12 +38,13 @@ a{
 
 #container #intro{
     height: 500px;
-
     margin-top: -16px;
 }
 #container #intro p{
     margin-left: 400px;
     margin-top: 100px;
-    color: dodgerblue;
+    font-size: 25px;
+    color: #5E4A3A;
 }
+
 
