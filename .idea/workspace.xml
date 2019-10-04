@@ -1,31 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b75e2902-90fa-45fe-8929-52e5b679298d" name="Default Changelist" comment="" />
+    <list default="true" id="475c1f76-b74b-49bc-94e0-8de77e139b5e" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="CSS File" />
-        <option value="HTML File" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectId" id="1Qx8TAvsXHjLbLBGpNsvx7sYoBa" />
+  <component name="ProjectId" id="1RiSI2QnjzQp7t26P7q8VEbEwWF" />
   <component name="PropertiesComponent">
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/img" />
-    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/images" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\this pc\Pictures\17130021_design\2047_brown_field" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\this pc\WebstormProjects\GTNM_CoNga\img" />
+      <recent name="C:\Users\this pc\Pictures\17130021_design\2047_brown_field\images" />
+      <recent name="C:\Users\this pc\Pictures\17130021_design\2047_brown_field\js" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -45,24 +39,12 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="b75e2902-90fa-45fe-8929-52e5b679298d" name="Default Changelist" comment="" />
-      <created>1568700891838</created>
+      <changelist id="475c1f76-b74b-49bc-94e0-8de77e139b5e" name="Default Changelist" comment="" />
+      <created>1570148339371</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1568700891838</updated>
-      <workItem from="1568700893120" duration="3824000" />
-      <workItem from="1569305012904" duration="5141000" />
-      <workItem from="1569310604631" duration="15000" />
-      <workItem from="1569653121548" duration="5671000" />
-      <workItem from="1569662584470" duration="4890000" />
-      <workItem from="1569729970320" duration="15952000" />
-      <workItem from="1569749450220" duration="5303000" />
-      <workItem from="1569842682004" duration="1363000" />
-      <workItem from="1569857794025" duration="2909000" />
-      <workItem from="1569860833444" duration="6671000" />
-      <workItem from="1569896417226" duration="6109000" />
-      <workItem from="1569905828299" duration="7000" />
-      <workItem from="1569908941400" duration="4963000" />
+      <updated>1570148339371</updated>
+      <workItem from="1570148341127" duration="6927000" />
     </task>
     <servers />
   </component>
