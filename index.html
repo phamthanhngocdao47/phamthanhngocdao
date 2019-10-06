@@ -1,55 +1,869 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<!-- 
-	Template 2047 Brown Field
-	by www.tooplate.com 
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Pham Thanh Ngoc Dao</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600"
+    />
+    <!-- https://fonts.google.com/specimen/Open+Sans -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- https://fontawesome.com/ -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- https://getbootstrap.com/ -->
+    <link rel="stylesheet" href="css/tooplate-style.css" />
+    <!--
+Tooplate 2111 Pro Line
+http://www.tooplate.com/view/2111-pro-line
 -->
-<title>Pham Thanh Ngoc Dao</title>
-<meta name="keywords" content="" />
-<meta name="description" content="" />
-<link href="css/tooplate_style.css" rel="stylesheet" type="text/css" />
+  </head>
 
-		<script type="text/javascript" src="js/swfobject.js"></script>
-		<script type="text/javascript">
-			var flashvars = {};
-			flashvars.xml_file = "photo_list.xml";
-			var params = {};
-			params.wmode = "transparent";
-			var attributes = {};
-			attributes.id = "slider";
-			swfobject.embedSWF("flash_slider.swf", "flash_grid_slider", "440", "220", "9.0.0", false, flashvars, params, attributes);
-		</script>    
-</head>
-<body>
+  <body>
+    <!-- page header -->
+    <div class="container" id="home">
+      <div class="col-12 text-center">
+        <div class="tm-page-header">
+          <i class="fas fa-4x fa-chart-bar mr-4"></i>
+          <h1 class="d-inline-block text-uppercase">Pro Line</h1>
+        </div>
+      </div>
+    </div>
+    <!-- navbar -->
+    <div class="tm-nav-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <nav class="navbar navbar-expand-md navbar-light">
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-toggle="collapse"
+                data-target="#tmMainNav"
+                aria-controls="tmMainNav"
+                aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
 
-<div id="tooplate_wrapper">
+              <div class="collapse navbar-collapse" id="tmMainNav">
+                <ul class="navbar-nav mx-auto tm-navbar-nav">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="#home"
+                      >Home <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#features">Lab</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#activities">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link external" href="https://hci2019group07.tk">Group07</a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
 
-	<div id="tooplate_header">
-        <div id="tooplate_menu">
-            <ul>
-                <li><a href="index.html" class="current">Home</a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="lab.html">Lab</a></li>
-            </ul>    	
-        </div> <!-- end of tooplate_menu -->
-    </div> <!-- end of forever header -->
-    
-    <div id="tooplate_middle">
-        <div id="mid_left">
-            <div id="mid_title">
-                WELLCOM TO MY WEBSITE!
-            </div>
-            <p>
-                The busy have no time for tears.<br>
-                Your success and happiness lies in you. Resolve to keep happy, and your joy and you shall form an invincible host against difficulties.
-                <br>
-                No matter how good or bad you think life is, wake up each day and be thankful for life. Someone somewhere else is fighting to survive
-            </p>
-	  	</div>
+    <!-- Video Banner -->
+    <section class="tm-banner-section" id="tmVideoSection">
+      <div class="container tm-banner-text-container">
+        <div class="row">
+          <div class="col-12">
+            <header>
+              <h2 class="tm-banner-title">Welcom Website</h2>
+              <p class="mx-auto tm-banner-subtitle">
+                The video background has a parallax effect. This is fluid and
+                full-width.
+              </p>
+            </header>
+          </div>
+        </div>
+      </div>
 
-	</div>
-</div>
-</body>
+      <!-- Video -->
+      <video id="hero-vid" autoplay="" loop="" muted>
+        <source src="videos/city-night-blur-01.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+    </section>
+    <!-- Lab -->
+    <div class="container tm-features-section" id="features">
+      <div class="row tm-features-row">
+          <div class="container">
+              <ul class="nav nav-tabs">
+                  <li class="active"><a data-toggle="tab" href="#lab1">Lab1</a></li>
+                  <li><a data-toggle="tab" href="#lab2">Lab2</a></li>
+                  <li><a data-toggle="tab" href="#lab3">Lab3</a></li>
+                  <li><a data-toggle="tab" href="#lab4">Lab4</a></li>
+              </ul>
+
+<!--              <div id="lab1">-->
+<!--                  <h3 style="margin-top: 30px; color: darkred;font-size: 25px">Lab1</h3>-->
+<!--            <ul class="nav-tabs">-->
+<!--              <li class="active">-->
+<!--                <a data-toggle="tab" href="#requirement" class="active" style="color: firebrick">Requirement</a>-->
+<!--              </li>-->
+<!--              <li><a data-toggle="tab" href="#design" class="" style="color: firebrick">Design</a></li>-->
+<!--              <li><a data-toggle="tab" href="#implement" class="" style="color: firebrick">Implement</a></li>-->
+<!--            </ul>-->
+<!--            <div class="tab-content">-->
+<!--              <div id="requirement" class="tab-pane active">-->
+<!--                <h3 style="margin-top: 60px; font-size: 20px">Requirement</h3>-->
+<!--                <p>Yêu cầu: Chọn 1 đối tượng bất kỳ trong thế giới thực, ví dụ-->
+<!--                  như sinh viên, môn học, giảng viên,… để thiết kế trên phần-->
+<!--                  mềm một chức năng trên web để thêm, sửa, xóa, tìm kiếm-->
+<!--                  cho đối tượng đó.</p>-->
+<!--              </div>-->
+<!--              <div id="design" class="tab-pane">-->
+<!--                <h3 style="margin-top: 60px; font-size: 20px">Design</h3>-->
+<!--                <div id="page_ds">-->
+<!--                  <div id="design_1">-->
+<!--                    <div id="head_ds1">-->
+<!--                      Download file thiết trên giấy-->
+<!--                    </div>-->
+<!--                    <div id="pic_1">-->
+<!--                      <div id="background_1"><img src="img/anh_chinh.jpg" height="500" width="500"/>-->
+<!--                        </div>-->
+<!--                      <button class="down_pic1"><a class="down_1" href="img/anh_chinh.jpg" download="img/anh_chinh.jpg">Download</a></button>-->
+<!--                    </div>-->
+<!--                  </div>-->
+
+<!--                  <div id="design_2">-->
+<!--                    <div id="head_ds2">-->
+<!--                      Download file thiết trên figma 1-->
+<!--                    </div>-->
+<!--                    <div id="pic_2">-->
+<!--                      <div id="background_2">-->
+
+<!--                        <img src="img/anh_chinh.png" height="400" width="500"/></div>-->
+<!--                      <button class="down_pic1"><a class="down_1" href="img/lab1_1.fig" download="img/lab1_1.fig">Download</a></button>-->
+<!--                    </div>-->
+<!--                  </div>-->
+
+<!--                  <div id="design_3">-->
+<!--                    <div id="head_ds3">-->
+<!--                      Download file thiết kế trên figma 2-->
+<!--                    </div>-->
+<!--                    <div id="pic_3">-->
+<!--                      <div id="background_3">-->
+<!--                        <img src="img/them_sp.png" height="400" width="500"/></div>-->
+<!--                      <button class="down_pic1"><a class="down_1" href="img/lab1_2.fig" download="img/lab1_2.fig">Download</a></button>-->
+<!--                    </div>-->
+<!--                  </div>-->
+
+<!--                  <div id="design_4">-->
+<!--                    <div id="head_ds4">-->
+<!--                      Download file thiết kế trên figma 3-->
+<!--                    </div>-->
+<!--                    <div id="pic_4">-->
+<!--                      <div id="background_4">-->
+
+<!--                        <img src="img/sua_sp.png" height="400" width="500"/>-->
+<!--                      </div>-->
+<!--                      <button class="down_pic1"><a class="down_1" href="img/lab1_3.fig" download="img/lab1_3.fig">Download</a></button>-->
+<!--                    </div>-->
+<!--                  </div>-->
+
+<!--                  <div id="design_5">-->
+<!--                    <div id="head_ds5">-->
+<!--                      Download file design trên figma 4-->
+<!--                    </div>-->
+<!--                    <div id="pic_5">-->
+<!--                      <div id="background_5">-->
+<!--                        <img src="img/xoa_sp.png" height="209" width="462"/>-->
+
+<!--                      </div>-->
+<!--                      <button class="down_pic1"><a class="down_1" href="img/lab1_4.fig" download="img/lab1_4.fig">Download</a></button>-->
+<!--                    </div>-->
+<!--                  </div>-->
+
+<!--                  <div id="download_all">-->
+<!--                    <button class="down_all"><a class="down_1" href="img/17130021_design.rar" download="img/17130021_design.rar">Download All</a></button>-->
+<!--                  </div>-->
+<!--                </div>-->
+<!--              </div>-->
+<!--              <div id="implement" class="tab-pane">-->
+<!--                <h3 style="margin-top: 60px; font-size: 20px">Implement</h3>-->
+<!--                <div id="content_chinh">-->
+<!--                  <div id="content_con1">-->
+<!--                    <div id="head">-->
+<!--                      Cửa Hàng Bán Thức Ăn Nhanh-->
+<!--                    </div>-->
+<!--                    <div id="nav_add_find">-->
+<!--                      <div class="alpha">-->
+<!--                        <input type="button" class="bt_them" value="Thêm">-->
+<!--                      </div>-->
+<!--                      <div class="omega">-->
+<!--                        <input type="text"  id="t_timkiem"  value="Nhập thông tin sản phẩm" >-->
+<!--                        <input type="button" class="bt_timkiem" value="Tìm Kiếm">-->
+<!--                      </div>-->
+<!--                    </div>-->
+<!--                    <div id="nav_table">-->
+<!--                      <table class="table1" border="1" style="width: 800px; height: 30px">-->
+<!--                        <tr>-->
+<!--                          <th>Mã sản phẩm</th>-->
+<!--                          <th>Tên sản phẩm</th>-->
+<!--                          <th>Đơn giá</th>-->
+<!--                          <th>Chức năng</th>-->
+<!--                        </tr>-->
+<!--                        <tr>-->
+<!--                          <td>6534</td>-->
+<!--                          <td>Shakechicken</td>-->
+<!--                          <td>43,000đ</td>-->
+<!--                          <td>-->
+<!--                            <button class="button" style="width: 43px; height: 33px; ">-->
+<!--                              <img src="img/—Pngtree—vector cancel icon_3762800.png" height="28" width="28"/>-->
+<!--                            </button>-->
+<!--                            <button>-->
+<!--                              <img src="img/—Pngtree—vector pencil icon_3773618.png" height="28" width="28"/>-->
+<!--                            </button>-->
+<!--                          </td>-->
+<!--                        </tr>-->
+<!--                        <tr>-->
+<!--                          <td>4378</td>-->
+<!--                          <td>Shake Patato</td>-->
+<!--                          <td>39,000đ</td>-->
+<!--                          <td>-->
+<!--                            <button  style="width: 43px; height: 33px; ">-->
+<!--                              <img src="img/—Pngtree—vector cancel icon_3762800.png" height="28" width="28"/>-->
+<!--                            </button>-->
+<!--                            <button>-->
+<!--                              <img src="img/—Pngtree—vector pencil icon_3773618.png" height="28" width="28"/>-->
+<!--                            </button>-->
+<!--                          </td>-->
+<!--                        </tr>-->
+
+<!--                        <tr>-->
+<!--                          <td>6327</td>-->
+<!--                          <td>H&S Chicken</td>-->
+<!--                          <td>37,000đ</td>-->
+<!--                          <td>-->
+<!--                            <button style="width: 43px; height:33px; ">-->
+<!--                              <img src="img/—Pngtree—vector cancel icon_3762800.png" height="28" width="28"/>-->
+<!--                            </button>-->
+<!--                            <button>-->
+<!--                              <img src="img/—Pngtree—vector pencil icon_3773618.png" height="28" width="28"/>-->
+<!--                            </button>-->
+<!--                        </tr>-->
+
+<!--                        <tr>-->
+<!--                          <td>2364</td>-->
+<!--                          <td>Chicken Burger</td>-->
+<!--                          <td>43,000đ</td>-->
+<!--                          <td>-->
+<!--                            <button style="width: 43px; height: 33px; ">-->
+<!--                              <img src="img/—Pngtree—vector cancel icon_3762800.png" height="28" width="28"/>-->
+<!--                            </button>-->
+<!--                            <button>-->
+<!--                              <img src="img/—Pngtree—vector pencil icon_3773618.png" height="28" width="28"/>-->
+<!--                            </button>-->
+<!--                          </td>-->
+<!--                        </tr>-->
+<!--                        <tr>-->
+<!--                          <td>1263</td>-->
+<!--                          <td>Soy Bean Chicken</td>-->
+<!--                          <td>37,000đ</td>-->
+<!--                          <td>-->
+<!--                            <button style="width: 43px; height: 33px;">-->
+<!--                              <img src="img/—Pngtree—vector cancel icon_3762800.png" height="28" width="28"/>-->
+<!--                            </button>-->
+<!--                            <button>-->
+<!--                              <img src="img/—Pngtree—vector pencil icon_3773618.png" height="28" width="28"/>-->
+<!--                            </button>-->
+<!--                          </td>-->
+<!--                        </tr>-->
+
+<!--                      </table>-->
+<!--                    </div>-->
+
+<!--                  </div>-->
+<!--                  <div id="content_con2">-->
+<!--                    <div id="head1">-->
+<!--                      Thêm Sản Phẩm-->
+<!--                    </div>-->
+<!--                    <div class="r">-->
+<!--                    <div class="row">-->
+<!--                      <p>-Mã sản phẩm:</p>-->
+<!--                      <input type="text" style="color: white" class="text1" value="Nhập mã cần thêm">-->
+<!--                    </div>-->
+<!--                    <div class="row">-->
+<!--                      <p>-Tên sản phẩm:</p>-->
+<!--                      <input type="text" style="color: white" class="text1" value="Nhập tên cần thêm"><br>-->
+<!--                    </div>-->
+<!--                    <div class="row">-->
+<!--                      <p>-Đơn giá:</p>-->
+<!--                      <input type="text" style="color: white" class="text" value="Nhập đơn giá cần thêm"><br>-->
+<!--                    </div>-->
+<!--                    </div>-->
+<!--                    <div id="bt_all">-->
+<!--                      <input type="button" class="bt" value="+ Thêm">-->
+<!--                      <input type="button" class="bt" value="Xóa form">-->
+<!--                      <input type="button" class="bt" value="Quay lại">-->
+<!--                    </div>-->
+<!--                  </div>-->
+<!--                  <div id="content_con3">-->
+<!--                    <div id="head2">-->
+<!--                      Sửa Thông Tin Sản Phẩm-->
+<!--                    </div>-->
+<!--                    <div class="r">-->
+<!--                    <div class="row">-->
+<!--                      <p>-Mã sản phẩm:</p>-->
+<!--                      <input type="text" style="color: white" class="text1" value="Nhập mã cần thêm">-->
+<!--                    </div>-->
+<!--                    <div class="row">-->
+<!--                      <p>-Tên sản phẩm:</p>-->
+<!--                      <input type="text" style="color: white" class="text1" value="Nhập tên cần thêm">-->
+<!--                    </div>-->
+<!--                    <div class="row">-->
+<!--                      <p>-Đơn giá:</p>-->
+<!--                      <input type="text" style="color: white" class="text" value="Nhập đơn giá cần thêm">-->
+<!--                    </div>-->
+<!--                    </div>-->
+<!--                    <div id="bt_all_sua">-->
+<!--                      <input type="button" class="bt" value="Sửa">-->
+<!--                      <input type="button" class="bt" value="Xóa form">-->
+<!--                      <input type="button" class="bt" value="Quay lại">-->
+<!--                    </div>-->
+<!--                  </div>-->
+<!--                  <div id="content_con4">-->
+<!--                    <div id="head3">-->
+<!--                      Xóa Sản Phẩm-->
+<!--                    </div>-->
+<!--                    <div id="nav_text">-->
+<!--                      <p>Hãy click vào button xóa để nhận được thông báo</p>-->
+<!--                    </div>-->
+<!--                    <div id="nav_bt_xoa">-->
+<!--                      <input type="button" class="bt_xoa" value="Xóa">-->
+<!--                      <input type="button" class="bt_ql_xoa" value="Quay lại">-->
+<!--                    </div>-->
+
+<!--                  </div>-->
+<!--                </div>-->
+<!--              </div>-->
+<!--            </div>-->
+
+<!--          </div>-->
+              <div class="tab-content">
+                  <div id="lab1" class="tab-pane active">
+                      <h3 style="margin: 30px 100px; color: darkred;font-size: 25px">Lab1</h3>
+                      <ul class="nav-tabs">
+                          <li class="active">
+                              <a data-toggle="tab" href="#requirement" class="active" style="color: firebrick">Requirement</a>
+                          </li>
+                          <li><a data-toggle="tab" href="#design" class="" style="color: firebrick">Design</a></li>
+                          <li><a data-toggle="tab" href="#implement" class="" style="color: firebrick">Implement</a></li>
+                      </ul>
+                      <div class="tab-content">
+                          <div id="requirement" class="tab-pane active">
+                              <h3 style="margin-top: 60px; font-size: 20px">Requirement</h3>
+                              <p>Yêu cầu: Chọn 1 đối tượng bất kỳ trong thế giới thực, ví dụ
+                                  như sinh viên, môn học, giảng viên,… để thiết kế trên phần
+                                  mềm một chức năng trên web để thêm, sửa, xóa, tìm kiếm
+                                  cho đối tượng đó.</p>
+                          </div>
+                          <div id="design" class="tab-pane">
+                              <h3 style="margin-top: 60px; font-size: 20px">Design</h3>
+                              <div id="page_ds">
+                                  <div id="design_1">
+                                      <div id="head_ds1">
+                                          Download file thiết trên giấy
+                                      </div>
+                                      <div id="pic_1">
+                                          <div id="background_1"><img src="img/anh_chinh.jpg" height="500" width="500"/>
+                                          </div>
+                                          <button class="down_pic1"><a class="down_1" href="img/anh_chinh.jpg" download="img/anh_chinh.jpg">Download</a></button>
+                                      </div>
+                                  </div>
+
+                                  <div id="design_2">
+                                      <div id="head_ds2">
+                                          Download file thiết trên figma 1
+                                      </div>
+                                      <div id="pic_2">
+                                          <div id="background_2">
+
+                                              <img src="img/anh_chinh.png" height="400" width="500"/></div>
+                                          <button class="down_pic1"><a class="down_1" href="img/lab1_1.fig" download="img/lab1_1.fig">Download</a></button>
+                                      </div>
+                                  </div>
+
+                                  <div id="design_3">
+                                      <div id="head_ds3">
+                                          Download file thiết kế trên figma 2
+                                      </div>
+                                      <div id="pic_3">
+                                          <div id="background_3">
+                                              <img src="img/them_sp.png" height="400" width="500"/></div>
+                                          <button class="down_pic1"><a class="down_1" href="img/lab1_2.fig" download="img/lab1_2.fig">Download</a></button>
+                                      </div>
+                                  </div>
+
+                                  <div id="design_4">
+                                      <div id="head_ds4">
+                                          Download file thiết kế trên figma 3
+                                      </div>
+                                      <div id="pic_4">
+                                          <div id="background_4">
+
+                                              <img src="img/sua_sp.png" height="400" width="500"/>
+                                          </div>
+                                          <button class="down_pic1"><a class="down_1" href="img/lab1_3.fig" download="img/lab1_3.fig">Download</a></button>
+                                      </div>
+                                  </div>
+
+                                  <div id="design_5">
+                                      <div id="head_ds5">
+                                          Download file design trên figma 4
+                                      </div>
+                                      <div id="pic_5">
+                                          <div id="background_5">
+                                              <img src="img/xoa_sp.png" height="209" width="462"/>
+
+                                          </div>
+                                          <button class="down_pic1"><a class="down_1" href="img/lab1_4.fig" download="img/lab1_4.fig">Download</a></button>
+                                      </div>
+                                  </div>
+
+                                  <div id="download_all">
+                                      <button class="down_all"><a class="down_1" href="img/17130021_design.rar" download="img/17130021_design.rar">Download All</a></button>
+                                  </div>
+                              </div>
+                          </div>
+                          <div id="implement" class="tab-pane">
+                              <h3 style="margin-top: 60px; font-size: 20px">Implement</h3>
+                              <div id="content_chinh">
+                                  <div id="content_con1">
+                                      <div id="head">
+                                          Cửa Hàng Bán Thức Ăn Nhanh
+                                      </div>
+                                      <div id="nav_add_find">
+                                          <div class="alpha">
+                                              <input type="button" class="bt_them" value="Thêm">
+                                          </div>
+                                          <div class="omega">
+                                              <input type="text"  id="t_timkiem"  value="Nhập thông tin sản phẩm" >
+                                              <input type="button" class="bt_timkiem" value="Tìm Kiếm">
+                                          </div>
+                                      </div>
+                                      <div id="nav_table">
+                                          <table class="table1" border="1" style="width: 800px; height: 30px">
+                                              <tr>
+                                                  <th>Mã sản phẩm</th>
+                                                  <th>Tên sản phẩm</th>
+                                                  <th>Đơn giá</th>
+                                                  <th>Chức năng</th>
+                                              </tr>
+                                              <tr>
+                                                  <td>6534</td>
+                                                  <td>Shakechicken</td>
+                                                  <td>43,000đ</td>
+                                                  <td>
+                                                      <button class="button" style="width: 43px; height: 33px; ">
+                                                          <img src="img/—Pngtree—vector cancel icon_3762800.png" height="28" width="28"/>
+                                                      </button>
+                                                      <button>
+                                                          <img src="img/—Pngtree—vector pencil icon_3773618.png" height="28" width="28"/>
+                                                      </button>
+                                                  </td>
+                                              </tr>
+                                              <tr>
+                                                  <td>4378</td>
+                                                  <td>Shake Patato</td>
+                                                  <td>39,000đ</td>
+                                                  <td>
+                                                      <button  style="width: 43px; height: 33px; ">
+                                                          <img src="img/—Pngtree—vector cancel icon_3762800.png" height="28" width="28"/>
+                                                      </button>
+                                                      <button>
+                                                          <img src="img/—Pngtree—vector pencil icon_3773618.png" height="28" width="28"/>
+                                                      </button>
+                                                  </td>
+                                              </tr>
+
+                                              <tr>
+                                                  <td>6327</td>
+                                                  <td>H&S Chicken</td>
+                                                  <td>37,000đ</td>
+                                                  <td>
+                                                      <button style="width: 43px; height:33px; ">
+                                                          <img src="img/—Pngtree—vector cancel icon_3762800.png" height="28" width="28"/>
+                                                      </button>
+                                                      <button>
+                                                          <img src="img/—Pngtree—vector pencil icon_3773618.png" height="28" width="28"/>
+                                                      </button>
+                                              </tr>
+
+                                              <tr>
+                                                  <td>2364</td>
+                                                  <td>Chicken Burger</td>
+                                                  <td>43,000đ</td>
+                                                  <td>
+                                                      <button style="width: 43px; height: 33px; ">
+                                                          <img src="img/—Pngtree—vector cancel icon_3762800.png" height="28" width="28"/>
+                                                      </button>
+                                                      <button>
+                                                          <img src="img/—Pngtree—vector pencil icon_3773618.png" height="28" width="28"/>
+                                                      </button>
+                                                  </td>
+                                              </tr>
+                                              <tr>
+                                                  <td>1263</td>
+                                                  <td>Soy Bean Chicken</td>
+                                                  <td>37,000đ</td>
+                                                  <td>
+                                                      <button style="width: 43px; height: 33px;">
+                                                          <img src="img/—Pngtree—vector cancel icon_3762800.png" height="28" width="28"/>
+                                                      </button>
+                                                      <button>
+                                                          <img src="img/—Pngtree—vector pencil icon_3773618.png" height="28" width="28"/>
+                                                      </button>
+                                                  </td>
+                                              </tr>
+
+                                          </table>
+                                      </div>
+
+                                  </div>
+                                  <div id="content_con2">
+                                      <div id="head1">
+                                          Thêm Sản Phẩm
+                                      </div>
+                                      <div class="r">
+                                          <div class="row">
+                                              <p>-Mã sản phẩm:</p>
+                                              <input type="text" style="color: white" class="text1" value="Nhập mã cần thêm">
+                                          </div>
+                                          <div class="row">
+                                              <p>-Tên sản phẩm:</p>
+                                              <input type="text" style="color: white" class="text1" value="Nhập tên cần thêm"><br>
+                                          </div>
+                                          <div class="row">
+                                              <p>-Đơn giá:</p>
+                                              <input type="text" style="color: white" class="text" value="Nhập đơn giá cần thêm"><br>
+                                          </div>
+                                      </div>
+                                      <div id="bt_all">
+                                          <input type="button" class="bt" value="+ Thêm">
+                                          <input type="button" class="bt" value="Xóa form">
+                                          <input type="button" class="bt" value="Quay lại">
+                                      </div>
+                                  </div>
+                                  <div id="content_con3">
+                                      <div id="head2">
+                                          Sửa Thông Tin Sản Phẩm
+                                      </div>
+                                      <div class="r">
+                                          <div class="row">
+                                              <p>-Mã sản phẩm:</p>
+                                              <input type="text" style="color: white" class="text1" value="Nhập mã cần thêm">
+                                          </div>
+                                          <div class="row">
+                                              <p>-Tên sản phẩm:</p>
+                                              <input type="text" style="color: white" class="text1" value="Nhập tên cần thêm">
+                                          </div>
+                                          <div class="row">
+                                              <p>-Đơn giá:</p>
+                                              <input type="text" style="color: white" class="text" value="Nhập đơn giá cần thêm">
+                                          </div>
+                                      </div>
+                                      <div id="bt_all_sua">
+                                          <input type="button" class="bt" value="Sửa">
+                                          <input type="button" class="bt" value="Xóa form">
+                                          <input type="button" class="bt" value="Quay lại">
+                                      </div>
+                                  </div>
+                                  <div id="content_con4">
+                                      <div id="head3">
+                                          Xóa Sản Phẩm
+                                      </div>
+                                      <div id="nav_text">
+                                          <p>Hãy click vào button xóa để nhận được thông báo</p>
+                                      </div>
+                                      <div id="nav_bt_xoa">
+                                          <input type="button" class="bt_xoa" value="Xóa">
+                                          <input type="button" class="bt_ql_xoa" value="Quay lại">
+                                      </div>
+
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+<!--                  //ket thúc lab1-->
+<!--                bắt dau lab 2  </div>-->
+                  <div id="lab2" class="tab-pane fade">
+                      <h3 style="margin: 30px 100px; color: darkred;font-size: 25px">Lab2</h3>
+                      <ul class="nav-tabs">
+                          <li class="active">
+                              <a data-toggle="tab" href="#requirement1" class="active" style="color: firebrick">Requirement</a>
+                          </li>
+                          <li><a data-toggle="tab" href="#design1" class="" style="color: firebrick">Design</a></li>
+                          <li><a data-toggle="tab" href="#implement1" class="" style="color: firebrick">Implement</a></li>
+                      </ul>
+                      <div class="tab-content">
+<!--requirement-->
+                          <div id="requirement1" class="tab-pane active">
+                              <h3 style="margin-top: 60px; margin-left: 50px; font-size: 20px">Requirement</h3>
+                          </div>
+<!--design-->
+                          <div id="design1" class="tab-pane">
+                              <h3 style="margin-top: 60px; font-size: 20px">Design</h3>
+                          </div>
+
+<!--implement-->
+                          <div id="implement1" class="tab-pane">
+                              <h3 style="margin-top: 60px; font-size: 20px">Implement</h3>
+                          </div>
+                      </div>
+                  </div>
+<!--                  lab3-->
+                  <div id="lab3" class="tab-pane fade">
+                      <h3>Menu 2</h3>
+                      <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+                  </div>
+                  <div id="lab4" class="tab-pane fade">
+                      <h3>Menu 3</h3>
+                      <p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                  </div>
+              </div>
+          </div>
+        </div>
+      </div>
+
+<!--Acti-->
+    <div class="container" id="activities">
+      <div id="intro">
+        <div class="introduce">
+          <div id="inf">
+            INFORMATON
+          </div>
+          <p>
+            Hello! I'm Ngoc  Dao.<br>
+            Date of Birth: 04/07/1998<br>
+            Email: phamthanhngocdao040798@gmail.com<br>
+            I'm studying at Nong Lam University<br>
+            My favorite hobbies are listening to kpop music in my free time <br>
+            I like staying alone and occasionally I retreat into my shell.<br>
+            I love my family so much.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Contact -->
+    <section class="container tm-contact-section" id="contact">
+
+              <div class="form-group">
+                <input
+                  type="email"
+                  id="contact_email"
+                  name="contact_email"
+                  class="form-control"
+                  placeholder="Email"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <textarea
+                  rows="5"
+                  id="contact_message"
+                  name="contact_message"
+                  class="form-control"
+                  placeholder="Message"
+                  required
+                ></textarea>
+              </div>
+              <div class="tm-text-right">
+                <button type="submit" class="btn tm-btn tm-btn-big">
+                  Send It
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <footer class="container tm-footer">
+      <div class="row tm-footer-row">
+        <p class="col-md-10 col-sm-12 mb-0">
+          Copyright &copy; 2018 Company Name - Design:
+          <a rel="nofollow" href="https://www.facebook.com/tooplate" class="tm-footer-link">Tooplate</a>
+        </p>
+        <div class="col-md-2 col-sm-12 scrolltop">
+          <div class="scroll icon"><i class="fa fa-4x fa-angle-up"></i></div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/jquery-1.9.1.min.js"></script>
+    <!-- Single Page Nav plugin works with this version of jQuery -->
+    <script src="js/jquery.singlePageNav.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script>
+      /**
+       * detect IE
+       * returns version of IE or false, if browser is not Internet Explorer
+       */
+      function detectIE() {
+        var ua = window.navigator.userAgent;
+
+        var msie = ua.indexOf("MSIE ");
+        if (msie > 0) {
+          // IE 10 or older => return version number
+          return parseInt(ua.substring(msie + 5, ua.indexOf(".", msie)), 10);
+        }
+
+        var trident = ua.indexOf("Trident/");
+        if (trident > 0) {
+          // IE 11 => return version number
+          var rv = ua.indexOf("rv:");
+          return parseInt(ua.substring(rv + 3, ua.indexOf(".", rv)), 10);
+        }
+
+        // var edge = ua.indexOf('Edge/');
+        // if (edge > 0) {
+        //     // Edge (IE 12+) => return version number
+        //     return parseInt(ua.substring(edge + 5, ua.indexOf('.', edge)), 10);
+        // }
+
+        // other browser
+        return false;
+      }
+
+      function setVideoHeight() {
+        const videoRatio = 1920 / 1080;
+        const minVideoWidth = 400 * videoRatio;
+        let secWidth = 0,
+          secHeight = 0;
+
+        secWidth = videoSec.width();
+        secHeight = videoSec.height();
+
+        secHeight = secWidth / 2.13;
+
+        if (secHeight > 600) {
+          secHeight = 600;
+        } else if (secHeight < 400) {
+          secHeight = 400;
+        }
+
+        if (secWidth > minVideoWidth) {
+          $("video").width(secWidth);
+        } else {
+          $("video").width(minVideoWidth);
+        }
+
+        videoSec.height(secHeight);
+      }
+
+      // Parallax function
+      // https://codepen.io/roborich/pen/wpAsm
+      var background_image_parallax = function($object, multiplier) {
+        multiplier = typeof multiplier !== "undefined" ? multiplier : 0.5;
+        multiplier = 1 - multiplier;
+        var $doc = $(document);
+        $object.css({ "background-attatchment": "fixed" });
+        $(window).scroll(function() {
+          var from_top = $doc.scrollTop(),
+            bg_css = "center " + multiplier * from_top + "px";
+          $object.css({ "background-position": bg_css });
+        });
+      };
+
+      $(window).scroll(function() {
+        if ($(this).scrollTop() > 50) {
+          $(".scrolltop:hidden")
+            .stop(true, true)
+            .fadeIn();
+        } else {
+          $(".scrolltop")
+            .stop(true, true)
+            .fadeOut();
+        }
+
+        // Make sticky header
+        if ($(this).scrollTop() > 158) {
+          $(".tm-nav-section").addClass("sticky");
+        } else {
+          $(".tm-nav-section").removeClass("sticky");
+        }
+      });
+
+      let videoSec;
+
+      $(function() {
+        if (detectIE()) {
+          alert(
+            "Please use the latest version of Edge, Chrome, or Firefox for best browsing experience."
+          );
+        }
+
+        const mainNav = $("#tmMainNav");
+        mainNav.singlePageNav({
+          filter: ":not(.external)",
+          offset: $(".tm-nav-section").outerHeight(),
+          updateHash: true,
+          beforeStart: function() {
+            mainNav.removeClass("show");
+          }
+        });
+
+        videoSec = $("#tmVideoSection");
+
+        // Adjust height of video when window is resized
+        $(window).resize(function() {
+          setVideoHeight();
+        });
+
+        setVideoHeight();
+
+        $(window).on("load scroll resize", function() {
+          var scrolled = $(this).scrollTop();
+          var vidHeight = $("#hero-vid").height();
+          var offset = vidHeight * 0.6;
+          var scrollSpeed = 0.25;
+          var windowWidth = window.innerWidth;
+
+          if (windowWidth < 768) {
+            scrollSpeed = 0.1;
+            offset = vidHeight * 0.5;
+          }
+
+          $("#hero-vid").css(
+            "transform",
+            "translate3d(-50%, " + -(offset + scrolled * scrollSpeed) + "px, 0)"
+          ); // parallax (25% scroll rate)
+        });
+
+        // Parallax image background
+        background_image_parallax($(".tm-parallax"), 0.4);
+
+        // Back to top
+        $(".scroll").click(function() {
+          $("html,body").animate(
+            { scrollTop: $("#home").offset().top },
+            "1000"
+          );
+          return false;
+        });
+      });
+    </script>
+
+  </body>
 </html>

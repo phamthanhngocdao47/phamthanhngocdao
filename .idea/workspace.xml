@@ -1,26 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="475c1f76-b74b-49bc-94e0-8de77e139b5e" name="Default Changelist" comment="" />
+    <list default="true" id="04cbf4f8-e8c6-4263-92da-cb6c7551b138" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ProjectId" id="1RiSI2QnjzQp7t26P7q8VEbEwWF" />
+  <component name="ProjectId" id="1RpLIFMiEJrsRsrgrsYhNq9B0ch" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/images" />
-  </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\this pc\Pictures\17130021_design\2047_brown_field" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\this pc\Pictures\17130021_design\2047_brown_field\images" />
-      <recent name="C:\Users\this pc\Pictures\17130021_design\2047_brown_field\js" />
-    </key>
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -39,12 +30,12 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="475c1f76-b74b-49bc-94e0-8de77e139b5e" name="Default Changelist" comment="" />
-      <created>1570148339371</created>
+      <changelist id="04cbf4f8-e8c6-4263-92da-cb6c7551b138" name="Default Changelist" comment="" />
+      <created>1570359008641</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1570148339371</updated>
-      <workItem from="1570148341127" duration="7220000" />
+      <updated>1570359008641</updated>
+      <workItem from="1570359010110" duration="834000" />
     </task>
     <servers />
   </component>
