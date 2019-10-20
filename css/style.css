@@ -2591,22 +2591,140 @@ figure {
 .tab-pane{
   margin-left: 30px;
 }
-.tk{
-  height: 30px;
-
-}
-
 .tab-content{
   margin-right: 30px;
 }
 
 
-.dn{
- margin-left: 400px;
 
-}
 .nav>li>a{
   position: relative;
   display: block;
   padding: 10px 15px;
 }
+.im1{
+  width: 1500px;
+  position: relative;
+}
+
+.header{
+  height: 70px;
+  width: 1150px;
+  background-color: #CCCCCC;
+  position: relative;
+
+}
+.lo{
+position: absolute;
+  top: 15px;
+  margin-left: 30px;
+  color: #2e4018;
+  font-size: 25px;
+  font-weight: bold;
+
+
+}
+.bttk_l3{
+  float: left;
+  position: absolute;
+  top: 17px;
+  left: 1030px;
+  background: #2e6e9e;
+  color: white;
+}
+.tk_l3{
+  float: left;
+  position: absolute;
+  top: 15px;
+  left: 750px;
+  width: 270px;
+}
+.bd{
+  height: 40px;
+}
+.tc{
+  float: left;
+  font-size: 17px;
+  color: #1c7430;
+
+}
+.t1{
+  float: left;
+  font-weight: bold;
+  color: #1c7430;
+  font-size: 17px;
+}
+.tt{
+  height: 1200px;
+  float: left;
+  margin-left: -100px;
+}
+.nb{
+  width: 520px;
+  margin-bottom: 20px;
+}
+.tinnb{
+  font-size: 18px;
+  font-weight: bold;
+}
+.tinnb:hover{
+  color: red;
+}
+.time{
+  font-size: 14px;
+}
+.tin1{
+  height: 210px;
+  width: 800px;
+}
+.hin2{
+  float: left;
+}
+.tin1_1{
+  float: left;
+  width: 420px;
+  margin-left: 10px;
+}
+.at{
+  font-size: 14px;
+  color: darkred;
+}
+.tinnong{
+  float: left;
+  margin-right: 210px;
+width: 300px;
+}
+.lon{
+  width: 1400px;
+  left: 100px;
+
+}
+.tinnong{
+  border: 1px solid #adb5bd;
+  width: 300px;
+  height: 550px;
+}
+.tdn{
+  width: 200px ;
+  margin-left: 60px;
+font-weight: bold;
+  color: white;
+ /*margin-top: 10px;*/
+}
+.nen{
+  height: 30px;
+  background: darkred;
+}
+
+.noi{
+  width: 200px;
+  margin: 20px 50px;
+  border-bottom: 2px solid green;
+
+}
+.noi:hover{
+  color: red;
+}
+
+
+
