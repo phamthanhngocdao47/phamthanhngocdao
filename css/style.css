@@ -2653,6 +2653,7 @@ position: absolute;
   top: 15px;
   left: 650px;
   width: 270px;
+  border: 1px solid black;
 }
 .bd{
   height: 40px;
