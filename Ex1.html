@@ -4,6 +4,9 @@
 <head>
     <title>Pham Thanh Ngoc Dao</title>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
@@ -114,127 +117,191 @@
             <div class="row">
                 <div class="container">
                     <ul class="nav nav-tabs">
-                        <li  ><a  href="lab1.html">Lab1</a></li>
-                        <li><a  href="lab2.html">Lab2</a></li>
-                        <li class="active"><a  href="lab3.html">Lab3</a></li>
-                        <li><a  href="lab4.html">Lab4</a></li>
+                        <li  ><a  href="lab1.html">LAB1</a></li>
+                        <li><a  href="lab2.html">LAB2</a></li>
+                        <li class="active"><a  href="lab3.html">LAB3</a></li>
+                        <li><a  href="lab4.html">LAB4</a></li>
                     </ul>
-                        <h3 style="margin: 10px 90px;">Lab3</h3>
-                    <div class="tab-content" >
-                        <div id="lab3" class="tab-pane fade in active show">
-                            <div class="content"  >
-                                <ul class="nav nav-tabs" role="tablist">
-                                    <li class="active" >
-                                        <a data-toggle="tab" href="#requirement3">Requirement</a>
-                                    </li>
-                                    <li><a  href="Ex1.html">Exercise1</a></li>
-                                    <li><a href="Ex2.html">Exercise2</a></li>
-                                </ul>
-                                <div class="tab-content">
-                                    <div id="requirement3" class="tab-pane fade ">
-                                        <h3>Requirement</h3>
-                                        <p class="r1" >Thiết kế 1 trang web đơn giản sử dụng mẫu F-pattern ==> chuyển sang html(Ex1.html)</p>
-                                    </div>
+<!--                      <br>-->
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="tab" role="tabpanel">
+                                    <!-- Nav tabs -->
+                                    <ul class="nav nav-tabs" role="tablist">
+                                        <li role="presentation"><a href="#requirement" aria-controls="home" role="tab" data-toggle="tab">Requirement</a></li>
+                                        <li role="presentation"  class="active"><a href="Ex1.html" aria-controls="profile" role="tab" >Exercise_1</a></li>
+                                        <li role="presentation"><a href="Ex2.html" aria-controls="messages" role="tab">Exercise_2</a></li>
+                                    </ul>
+<!--                                    <br>-->
+                                    <!-- Tab panes -->
+                                    <div class="tab-content tabs">
+                                        <div role="tabpanel" class="tab-pane fade" id="requirement">
+                                            <p class="chu">Trong menu Labs, tạo 1 menu Lab3(File lab3.html) sau đó tạo 2 tab Ex1, Ex2.</p>
+                                            <p class="chu"><span style="font-weight: bold">Ex1:</span> Thiết kế 1 trang web đơn giản sử dụng mẫu F-pattern ==> chuyển sang html(Ex1.html)</p>
+                                            <p class="chu"><span style="font-weight: bold">Ex2:</span> Thiết kế 1 trang web đơn giản sử dụng mẫu Z-pattern ==> chuyển sang html(Ex2.html)</p><br>
+                                            <p class="chu">Với cả <span>Ex1 Ex2:</span>Tạo 2 tab Design và Implementation:</p>
+                                            <p class="chu"><span style="font-weight: bold">Design: </span>chụp hình ảnh để có cái nhìn tổng quan về file thiết kế, có nút download để download file thiết kế về nếu muốn. </p>
+                                            <p>Implementation: nội dung phần hiện thực lên html.</p>
+                                            <br>
+                                            <p class="chu">Uplaod lên Azure/Github</p>
+                                        </div>
+                                        <div role="tabpanel" class="tab-pane active" id="exercise_1">
+                                            <div class="container">
+                                                <div class="row">
+                                                    <div class="col-md-6">
+                                                        <div class="tab" role="tabpanel">
+                                                            <!-- Nav tabs -->
+                                                            <ul class="nav nav-tabs" role="tablist">
+                                                                <li role="presentation" class="active"><a href="#Section1" aria-controls="home" role="tab" data-toggle="tab">Requirement</a></li>
+                                                                <li role="presentation"><a href="#Section2" aria-controls="profile" role="tab" data-toggle="tab">Design</a></li>
+                                                                <li role="presentation"><a href="#Section3" aria-controls="messages" role="tab" data-toggle="tab">Implement</a></li>
+                                                            </ul>
+                                                            <!-- Tab panes -->
+                                                            <div class="tab-content tabs">
+                                                                <div role="tabpanel" class="tab-pane active" id="Section1">
+                                                                    <p class="chu" >Thiết kế 1 trang web đơn giản sử dụng mẫu F-pattern ==> chuyển sang html(Ex1.html)</p>
+                                                                </div>
+                                                                <div role="tabpanel" class="tab-pane fade" id="Section2">
+                                                                <p class="re">+Mẫu F-pattern</p>
+                                                                    <div class="mf">
+                                                                        <div class="mf1">
 
-                                    <div id="exercise_1" class="tab-pane fade in active show "><br>
-                                        <h3 style="margin-left: 10px">Exercise1</h3>
-                                        <ul class="nav nav-tabs" role="tablist">
-                                            <li class="active" >
-                                                <a data-toggle="tab" href="#design_ex_1">Design</a>
-                                            </li>
-                                            <li><a data-toggle="tab" href="#implement_ex_1">Implement</a></li>
+                                                                            <img src="images/fg_lab3.png" height="500"
+                                                                                 width="600"/></div>
+                                                                    </div>
+                                                                    <button class="dl_mf1" ><a  href="images/lab3_ex1.fig"  style="color: white" download="images/lab3_ex1.fig">Download</a> </button>
+                                                                </div>
+                                                                <div role="tabpanel" class="tab-pane fade" id="Section3">
+                                                                    <div id="im1">
+                                                                        <div class="header">
+                                                                            <p class="lo">Ẩm Thực Việt</p>
+                                                                            <input class="tk_l3" value="nhập từ khóa..." style="background: #CCCCCC;font-size: 14px">
+                                                                            <button class="bttk_l3" style="font-size: 14px">Tìm kiếm</button>
+                                                                        </div>
+                                                                        <div class="bd">
+                                                                            <p class="tc">Trang chủ >></p>
+                                                                            <p class="t1"> Âm Thực</p>
+                                                                        </div>
+                                                                        <div class="lon">
+                                                                            <div class="tt">
+                                                                                <div class="nb">
+                                                                                    <div class="hinh">
+                                                                                        <img class="hi1" src="images/anh5.jpg" height="300" width="600"/>
+                                                                                    </div>
+                                                                                    <p class="tinnb">Những quy tắc ẩm thực kỳ lạ mà Hoàng gia Anh phải tuân thủ</p>
+                                                                                    <p class="time">18/10/2019</p>
+                                                                                    <p>Mọi người thường cho rằng là thành viên của một gia đình nổi tiếng nhất thế giới như hoàng gia Anh thì có thể làm bất cứ điều gì họ muốn. Nhưng điều này không đúng.</p>
+                                                                                </div>
+                                                                                <div class="tin1">
+                                                                                    <div class="hin2">
+                                                                                        <img src="images/cua-long.jpeg" height="200" width="200"/>
+                                                                                    </div>
+                                                                                    <div class="tin1_1">
+                                                                                        <p class="tinnb">Cua lông, món đặc sản dành cho giới thượng lưu</p>
+                                                                                        <p><h class="at">ẨM THỰC</h><span class="time"> 03/10/2019 </span></p>
+                                                                                        <p>Món đặc sản dành cho giới thượng lưu ở Thượng Hải, chỉ có vào dịp mùa thu, không thể bỏ qua cua lông.</p>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="tin1">
+                                                                                    <div class="hin2">
+                                                                                        <img src="images/anh2.jpg" height="200" width="200"/>
+                                                                                    </div>
+                                                                                    <div class="tin1_1">
+                                                                                        <p class="tinnb">Cách làm gà sốt chua ngọt ngon chuẩn cơm mẹ nấu</p>
+                                                                                        <p><h class="at">ẨM THỰC</h><span class="time"> 15/10/2019 </span></p>
+                                                                                        <p>Các bà nội trợ có thể trổ tài làm thịt gà giòn rụm quyện nước sốt chua ngọt. Món ăn không chỉ làm hài lòng trẻ nhỏ mà ngay cả người lớn cũng thích mê.</p>
+                                                                                    </div>
+                                                                                </div>
 
-                                        </ul>
-                                        <div class="tab-content">
-                                            <div id="design_ex_1" class="tab-pane fade in active show">
-                                                <h3>Design</h3>
-                                                <p></p>
-                                            </div>
-                                            <div id="implement_ex_1" class="tab-pane fade ">
-                                                <h3>Implement</h3><br>
-                                                <div id="im1">
-                                                    <div class="header">
-                                                        <p class="lo">Ẩm Thực Việt</p>
-                                                        <input class="tk_l3" value="nhập từ khóa...">
-                                                        <button class="bttk_l3">Tìm kiếm</button>
-                                                    </div>
-                                                    <div class="bd">
-                                                        <p class="tc">Trang chủ >></p>
-                                                        <p class="t1"> Âm Thực</p>
-                                                    </div>
-                                                    <div class="lon">
-                                                   <div class="tt">
-                                                       <div class="nb">
-                                                       <div class="hinh">
-                                                           <img class="hi1" src="images/anh5.jpg" height="300" width="600"/>
-                                                       </div>
-                                                       <p class="tinnb">Những quy tắc ẩm thực kỳ lạ mà Hoàng gia Anh phải tuân thủ</p>
-                                                           <p class="time">18/10/2019</p>
-                                                           <p>Mọi người thường cho rằng là thành viên của một gia đình nổi tiếng nhất thế giới như hoàng gia Anh thì có thể làm bất cứ điều gì họ muốn. Nhưng điều này không đúng.</p>
-                                                       </div>
-                                                       <div class="tin1">
-                                                           <div class="hin2">
-                                                               <img src="images/cua-long.jpeg" height="200" width="200"/>
-                                                           </div>
-                                                           <div class="tin1_1">
-                                                           <p class="tinnb">Cua lông, món đặc sản dành cho giới thượng lưu</p>
-                                                               <p><h class="at">ẨM THỰC</h><span class="time"> 03/10/2019 </span></p>
-                                                           <p>Món đặc sản dành cho giới thượng lưu ở Thượng Hải, chỉ có vào dịp mùa thu, không thể bỏ qua cua lông.</p>
-                                                       </div>
-                                                       </div>
-                                                       <div class="tin1">
-                                                           <div class="hin2">
-                                                               <img src="images/anh2.jpg" height="200" width="200"/>
-                                                           </div>
-                                                           <div class="tin1_1">
-                                                               <p class="tinnb">Cách làm gà sốt chua ngọt ngon chuẩn cơm mẹ nấu</p>
-                                                               <p><h class="at">ẨM THỰC</h><span class="time"> 15/10/2019 </span></p>
-                                                               <p>Các bà nội trợ có thể trổ tài làm thịt gà giòn rụm quyện nước sốt chua ngọt. Món ăn không chỉ làm hài lòng trẻ nhỏ mà ngay cả người lớn cũng thích mê.</p>
-                                                           </div>
-                                                       </div>
-
-                                                       <div class="tin1">
-                                                           <div class="hin2">
-                                                               <img src="images/anh4.jpg" height="200" width="200"/>
-                                                           </div>
-                                                           <div class="tin1_1">
-                                                               <p class="tinnb">Bữa ăn đủ chất, giàu vitamin với món canh chay thập cẩm</p>
-                                                               <p><h class="at">ẨM THỰC</h><span class="time"> 09/10/2019 </span></p>
-                                                               <p>Tiết trời trở lạnh là thời điểm thích hợp để chế biến những món ăn ấm, nóng. Hai cách làm xôi sắn béo ngậy dưới sẽ giúp bạn ghi điểm trong mắt ông xã. </p>
-                                                           </div>
-                                                       </div>
+                                                                                <div class="tin1">
+                                                                                    <div class="hin2">
+                                                                                        <img src="images/anh4.jpg" height="200" width="200"/>
+                                                                                    </div>
+                                                                                    <div class="tin1_1">
+                                                                                        <p class="tinnb">Bữa ăn đủ chất, giàu vitamin với món canh chay thập cẩm</p>
+                                                                                        <p><h class="at">ẨM THỰC</h><span class="time"> 09/10/2019 </span></p>
+                                                                                        <p>Tiết trời trở lạnh là thời điểm thích hợp để chế biến những món ăn ấm, nóng. Hai cách làm xôi sắn béo ngậy dưới sẽ giúp bạn ghi điểm trong mắt ông xã. </p>
+                                                                                    </div>
+                                                                                </div>
 
 
-                                                   </div>
-                                                        <div class="tinnong">
-                                                            <div class="nen">
-                                                                <p class="tdn">
-                                                                TIN ĐỌC NHIỀU NHẤT
-                                                                </p>
+                                                                            </div>
+                                                                            <div class="tinnong">
+                                                                                <div class="nen">
+                                                                                    <p class="tdn">
+                                                                                        TIN ĐỌC NHIỀU NHẤT
+                                                                                    </p>
+                                                                                </div>
+                                                                                <div class="noi">
+                                                                                    &#8859; Yêu thương là khóa học cả đời, khoan dung là bài tập vĩnh viễnYêu thương là khóa học cả đời, khoan dung là bài tập vĩnh viễn
+                                                                                </div>
+                                                                                <div class="noi">
+                                                                                    &#8859; Những hình ảnh ấn tượng về tính kỷ luật và sự tôn trọng ở Nhật Bản.
+                                                                                </div>
+                                                                                <div class="noi">
+                                                                                    &#8859; Chẳng phải tốn tiền ra tiệm ăn cháo ếch Singapore nữa, vì tôi có người bạn ở Sing chỉ cho cách nấu rồi!
+                                                                                </div>
+
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
                                                             </div>
-                                                            <div class="noi">
-                                                                &#8859; Yêu thương là khóa học cả đời, khoan dung là bài tập vĩnh viễnYêu thương là khóa học cả đời, khoan dung là bài tập vĩnh viễn
-                                                            </div>
-                                                            <div class="noi">
-                                                                &#8859; Những hình ảnh ấn tượng về tính kỷ luật và sự tôn trọng ở Nhật Bản.
-                                                            </div>
-                                                            <div class="noi">
-                                                                &#8859; Chẳng phải tốn tiền ra tiệm ăn cháo ếch Singapore nữa, vì tôi có người bạn ở Sing chỉ cho cách nấu rồi!
-                                                            </div>
-
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
 
+                                    </div>
                                 </div>
                             </div>
                         </div>
-
-
                     </div>
+<!--                    <div class="tab-content" >-->
+<!--                        <div id="lab3" class="tab-pane fade in active show">-->
+<!--                            <div class="content"  >-->
+<!--                                <ul class="nav nav-tabs" role="tablist">-->
+<!--                                    <li  >-->
+<!--                                        <a data-toggle="tab" href="#requirement3">Requirement</a>-->
+<!--                                    </li>-->
+<!--                                    <li class="active"><a  href="Ex1.html">Exercise1</a></li>-->
+<!--                                    <li><a href="Ex2.html">Exercise2</a></li>-->
+<!--                                </ul>-->
+<!--                                <div class="tab-content">-->
+<!--                                    <div id="requirement3" class="tab-pane fade ">-->
+<!--                                        <h3>Requirement</h3>-->
+<!--                                        <p class="r1" >Thiết kế 1 trang web đơn giản sử dụng mẫu F-pattern ==> chuyển sang html(Ex1.html)</p>-->
+<!--                                    </div>-->
+
+<!--                                    <div id="exercise" class="tab-pane fade in active show "><br>-->
+<!--                                        <h3 style="margin-left: 10px">Exercise1</h3>-->
+<!--                                        <ul class="nav nav-tabs" role="tablist">-->
+<!--                                            <li class="active" >-->
+<!--                                                <a data-toggle="tab" href="#design_ex_1">Design</a>-->
+<!--                                            </li>-->
+<!--                                            <li><a data-toggle="tab" href="#implement_ex_1">Implement</a></li>-->
+
+<!--                                        </ul>-->
+<!--                                        <div class="tab-content">-->
+<!--                                            <div id="design_ex_1" class="tab-pane fade in active show">-->
+<!--                                                <h3 style="margin-top: 20px">Design</h3>-->
+<!--                                                <p></p>-->
+<!--                                            </div>-->
+<!--                                            <div id="implement_ex_1" class="tab-pane fade ">-->
+<!--                                                <h3>Implement</h3><br>-->
+<!--                                                -->
+<!--                                            </div>-->
+<!--                                        </div>-->
+<!--                                    </div>-->
+
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                        </div>-->
+
+
+<!--                    </div>-->
 
 
 
@@ -253,7 +320,7 @@
 
             <div class="row">
                 <div class="col-12">
-                    <div class="copyright1">
+                    <div class="copyright">
                             <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                             Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart text-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" >Colorlib</a>
                             <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->

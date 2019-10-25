@@ -23,9 +23,9 @@ a {
   a:hover {
     text-decoration: none; }
 
-h1, h2, h3, h4, h5,
-.h1, .h2, .h3, .h4, .h5 {
-  font-family: "Cabin", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; }
+/*h1, h2, h3, h4, h5,*/
+/*.h1, .h2, .h3, .h4, .h5 {*/
+/*  font-family: "Cabin", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; }*/
 
 .border-2 {
   border-width: 2px; }
@@ -39,8 +39,8 @@ h1, h2, h3, h4, h5,
 .color-black-opacity-5 {
   color: rgba(0, 0, 0, 0.5); }
 
-.color-white-opacity-5 {
-  color: rgba(255, 255, 255, 0.5); }
+/*.color-white-opacity-5 {*/
+/*  color: rgba(255, 255, 255, 0.5); }*/
 
 .site-wrap:before {
   display: none;
@@ -77,8 +77,8 @@ h1, h2, h3, h4, h5,
 .site-section {
   padding: 2.5em 0; }
   @media (min-width: 768px) {
-    .site-section {
-      padding: 4em 0; }
+    /*.site-section {*/
+    /*  padding: 4em 0; }*/
   }
   .site-section.site-section-sm {
     padding: 4em 0; }
@@ -234,6 +234,7 @@ h1, h2, h3, h4, h5,
   .site-navbar .site-navigation.border-bottom {
     border-bottom: 1px solid #f3f3f4 !important; }
   .site-navbar .site-navigation .site-menu {
+    width: 1050px;
     margin-left: 0;
     padding-left: 0;
     margin-bottom: 0; }
@@ -256,6 +257,8 @@ h1, h2, h3, h4, h5,
         font-weight: 400;
         display: inline-block;
         text-decoration: none !important;
+        font-size: 18px;
+        font-weight: bold;
         color: #000; }
         .site-navbar .site-navigation .site-menu > li > a:hover {
           color: #000; }
@@ -805,7 +808,8 @@ h1, h2, h3, h4, h5,
       position: absolute;
       content: "";
       height: 1px;
-      background: #777; }
+      /*background: #777;*/
+    }
 
 .section-subtitle {
   font-weight: 300;
@@ -1285,7 +1289,9 @@ h1, h2, h3, h4, h5,
 .footer {
   font-size: .85rem;
   text-align: center;
-  padding: 2rem 0; }
+  padding: 2rem 0;
+    margin-top: 300px;
+}
 
 .top-social a {
   color: #000; }
@@ -1351,6 +1357,7 @@ h3 {
 
 p {
   line-height: 1.7;
+    font-size: 14px;
 
 }
 
@@ -1456,9 +1463,11 @@ p:last-child {
   font-weight: 300;
   margin-bottom: 40px;
 }
-
+.hci{
+    text-align: center;
+    font-size: 35px;
+}
 .tm-banner-subtitle {
-  font-size: 1.5rem;
   font-weight: 300;
   max-width: 500px;
 }
@@ -1636,14 +1645,25 @@ p:last-child {
 #tmTabContent {
   padding: 45px 45px 60px;
 }
+.nav.nav-tabs{
+  border-bottom: 1px solid #adb5bd;
+    margin-top: 20px;
+}
 
 .nav-tabs {
   border-bottom: none;
+
+  width: 1000px;
 }
 .nav-tabs li{
   float: left;
   margin-bottom: -1px;
+  font-weight: bold;
+  font-size: 17px;
+
   list-style-type: none;
+
+
 }
 
 
@@ -1713,7 +1733,8 @@ figure {
 }
 
 .scroll:hover {
-  background: rgba(178, 178, 178, 1);
+  /*background: rgba(178, 178, 178, 1);*/
+  background: white;
   transition: 0.5s;
   -moz-transition: 0.5s;
   -webkit-transition: 0.5s;
@@ -1884,34 +1905,35 @@ figure {
 #section_tab .tab-content{
   border-top: 1px solid gray;
   width: 1300px;
-  margin-left: 20px;
+  /*margin-left: 20px;*/
 }
 #section_tab .tab-content .tab-pane {
-  margin-left: 100px;
+
   font-size: 16px;
   width: 600px;
 }
-.tab-pane h{
-  margin-left: 50px;
-}
+
 #content_chinh {
   width: 900px;
 }
 #content_chinh #content_con1{
   width: 900px;
-  height: 500px;
+  /*height: 500px;*/
 }
 #content_con1 #head{
   font-size: 30px;
   color: darkred;
-  margin-bottom: 30px;
+ margin-top: 20px;
   margin-left: 200px;
 }
 #content_con1 #nav_add_find{
   width: 900px;
   height: 30px;
   margin-left: 150px;
-  margin-bottom: 50px;
+  margin-top: 20px;
+}
+#nav_table{
+  margin-top: 20px;
 }
 #content_con1 #nav_add_find .alpha{
   float: left;
@@ -1932,28 +1954,29 @@ figure {
   color: white;
   border-style: none;
   height: 30px;
-
 }
 #content_con1 #nav_add_find .omega #t_timkiem{
   background: green;
   color: white;
   border-style: none;
-  width: 360px;
+  width: 250px;
   height: 30px;
+}
+td, th{
+    padding: 20px;
+    font-size: 14px;
 }
 #content_con1 .table1{
   color: black;
 }
 #content_con2 {
   width: 900px;
-  height: 400px;
+  margin-top: 50px;
+  /*height: 400px;*/
 }
 #content_con2 #head1{
-  font-size: 30px;
-  color: darkblue;
+  font-size: 15px;
   font-family: Arial;
-  font-weight: bold;
-  text-align: center;
   margin-top: 30px;
 }
 #content_con2 .r{
@@ -1962,6 +1985,9 @@ figure {
 }
 #content_con2 .row p{
   float:left ;
+}
+#content_con2 .row{
+  margin-top: 15px;
 }
 #content_con2 .row .text1{
   float:left ;
@@ -1979,6 +2005,7 @@ figure {
 }
 #content_con2 #bt_all{
   margin-left: 150px;
+  margin-top: 20px;
 }
 #content_con2 .bt{
   margin-left: 50px;
@@ -1987,19 +2014,14 @@ figure {
   border-style: none;
 
 }
-
-
 #content_con3 {
-  margin-top: 30px;
+  margin-top: 50px;
   width: 900px;
-  height: 400px;
+  /*height: 400px;*/
 }
 #content_con3 #head2{
-  font-size: 30px;
-  color: darkblue;
+  font-size: 15px;
   font-family: Arial;
-  font-weight: bold;
-  text-align: center;
   margin-top: 30px;
 }
 #content_con3 .r{
@@ -2016,6 +2038,9 @@ figure {
   height: 30px;
 
 }
+#content_con3 .row{
+  margin-top: 15px;
+}
 #content_con3 .row .text{
   float:left ;
   margin-left: 100px;
@@ -2024,6 +2049,7 @@ figure {
 }
 #content_con3 #bt_all_sua{
   margin-left: 150px;
+  margin-top: 20px;
 }
 #content_con3 .bt{
   margin-left: 50px;
@@ -2035,12 +2061,13 @@ figure {
 #content_con4{
   width: 900px;
   margin-left: 150px;
+  margin-top: 50px;
   height: 300px;
 }
 #content_con4 #head3{
-  font-size: 30px;
-  color: darkblue;
+  font-size: 15px;
   margin-bottom: 30px;
+  margin-left: -140px;
 }
 #content_con4 #nav_text{
   color: black;
@@ -2064,26 +2091,25 @@ figure {
 }
 #page_ds #design_1{
   width: 800px;
-  height: 700px;
-  margin-top: 100px;
+  height:  550px;
+  margin-top: 20px;
 }
 #page_ds #design_1 #head_ds1{
-  font-size: 30px;
-  width: 600px;
-  height: 50px;
-  margin: 50px 100px;
+  font-size: 16px;
+  height: 40px;
 }
 #design_1 #background_1{
   float: left;
 }
 #design_1 .down_pic1{
-  float:right;
+  float:left;
 }
 
 #page_ds #design_1 .down_pic1{
   width: 100px;
-  margin-top: 40px;
+  margin: 200px 20px;
   height: 40px;
+
   font-weight: bold;
   font-family: Arial;
   background: #0e630b;
@@ -2095,20 +2121,20 @@ figure {
 #page_ds #design_2{
   width: 800px;
   margin-top: 40px;
-  height: 500px;
+  height: 450px;
 }
 #page_ds #design_2 #head_ds2{
-  font-size: 30px;
+  font-size: 16px;
   width: 600px;
-  height: 50px;
-  margin: 50px 100px;
+  height: 40px;
+
 }
 
 #design_2 #background_2{
   float: left;
 }
 #design_2 .down_pic1{
-  float:right;
+  float:left;
 }
 
 .down_1{
@@ -2118,7 +2144,7 @@ figure {
 #page_ds #design_2 .down_pic1{
   width: 100px;
   height: 40px;
-  margin-top: 40px;
+  margin: 200px 20px;
   font-weight: bold;
   font-family: Arial;
   background: #0e630b;
@@ -2127,21 +2153,20 @@ figure {
 }
 #page_ds #design_3{
   width: 800px;
-  height: 500px;
-    margin-top: 40px;
+  height: 360px;
+    margin-top: 20px;
 }
 #page_ds #design_3 #head_ds3{
-  font-size: 30px;
+  font-size: 16px;
   width: 600px;
-  height: 50px;
 
-  margin: 50px 100px;
+
 }
 #design_3 #background_3{
   float: left;
 }
 #design_3 .down_pic1{
-  float:right;
+  float:left;
 }
 .down_1{
   text-decoration: none;
@@ -2150,7 +2175,7 @@ figure {
 #page_ds #design_3 .down_pic1{
   width: 100px;
   height: 40px;
-  margin-top: 40px;
+  margin: 120px 20px;
   font-weight: bold;
   font-family: Arial;
   background: #0e630b;
@@ -2160,20 +2185,19 @@ figure {
 #page_ds #design_4{
   width: 800px;
   height: 400px;
-    margin-top: 40px;
+    margin-top: 20px;
 }
 #page_ds #design_4 #head_ds4{
-  font-size: 30px;
+  font-size: 18px;
   width: 600px;
-  height: 50px;
-  margin: 50px 100px;
+  height: 40px;
 }
 
 #design_4 #background_4{
   float: left;
 }
 #design_4 .down_pic1{
-  float:right;
+  float:left;
 }
 .down_1{
   text-decoration: none;
@@ -2182,7 +2206,7 @@ figure {
 #page_ds #design_4 .down_pic1{
   width: 100px;
   height: 40px;
-  margin-top: 40px;
+  margin: 200px 20px;
   font-weight: bold;
   font-family: Arial;
   background: #0e630b;
@@ -2192,21 +2216,19 @@ figure {
 
 #page_ds #design_5{
   width: 800px;
-  height: 450px;
+  height: 320px;
 
 }
 #page_ds #design_5 #head_ds5{
-  font-size: 30px;
+  font-size: 18px;
   width: 600px;
-  height: 50px;
-  margin: 50px 100px;
 }
-
 #design_5 #background_5{
   float: left;
+  /*margin-top: 30px;*/
 }
 #design_5 .down_pic1{
-  float:right;
+  float:left;
 }
 .down_1{
   text-decoration: none;
@@ -2216,7 +2238,7 @@ figure {
 #page_ds #design_5 .down_pic1{
   width: 100px;
   height: 40px;
-  margin-top: 40px;
+  /*margin: 120px 20px;*/
   font-weight: bold;
   font-family: Arial;
   background: #0e630b;
@@ -2226,6 +2248,7 @@ figure {
 #page_ds #ds_download_all{
   width:  500px;
   height:70px;
+  margin-top: 30px;
 
 }
 .down_all{
@@ -2257,24 +2280,25 @@ figure {
   font-weight: bold;
 }
 
-/*.tab-pane>p{*/
-/*  margin-left: 50px;*/
-/*}*/
-
 
 /*implememt lab 2*/
-.cont1{
-  height: 150px;
-  margin-left: 50px;
-  margin-top: 50px;
+#im_lab2{
+  width: 1300px;
 }
+.cont1{
+  height: 100px;
+  margin-top: 50px;
 
+}
+.bt_t{
+  float: left;
+}
 .bt_t:hover{
   background: red;
 }
 .tk{
   height: 50px;
-  margin-left: 400px;
+  margin-left: 500px;
 }
 .tk>h4{
   float: left;
@@ -2292,10 +2316,13 @@ figure {
 }
 .item_t .item{
   float: left;
-  width: 300px;
-  height: 550px;
+  width: 250px;
+  height: 500px;
   border: #0c5460;
   border: 1px solid #95AA90;
+}
+.thongtin{
+  width: 200px;
 }
 .item_t .item .it{
   margin: 30px 38px;
@@ -2319,7 +2346,7 @@ figure {
   border-bottom: 1px solid darkseagreen;
 }
 .item_t .item .ten{
-  font-size: 20px;
+  font-size: 17px;
   color: red;
   font-family: Arial;
   font-weight: bold;
@@ -2348,8 +2375,8 @@ figure {
 /*item 2*/
 .item_t .item2{
   float: left;
-  width: 300px;
-  height: 550px;
+  width: 250px;
+  height: 500px;
   border: #0c5460;
   border: 1px solid #95AA90;
 }
@@ -2375,7 +2402,7 @@ figure {
   border-bottom: 1px solid darkseagreen;
 }
 .item_t .item2 .ten{
-  font-size: 20px;
+  font-size:  17px;
   color: red;
   font-family: Arial;
   font-weight: bold;
@@ -2409,8 +2436,8 @@ figure {
 /*item 3*/
 .item_t .item3{
   float: left;
-  width: 300px;
-  height: 550px;
+  width: 250px;
+  height: 500px;
   border: #0c5460;
   border: 1px solid #95AA90;
 }
@@ -2436,7 +2463,7 @@ figure {
   border-bottom: 1px solid darkseagreen;
 }
 .item_t .item3 .ten{
-  font-size: 20px;
+  font-size: 17px;
   color: red;
   font-family: Arial;
   font-weight: bold;
@@ -2445,8 +2472,8 @@ figure {
 /*item 4*/
 .item_t .item4{
   float: left;
-  width: 300px;
-  height: 550px;
+  width: 250px;
+  height: 500px;
   border: #0c5460;
   border: 1px solid #95AA90;
 }
@@ -2472,14 +2499,15 @@ figure {
   border-bottom: 1px solid darkseagreen;
 }
 .item_t .item4 .ten{
-  font-size: 20px;
+  font-size:17px;
   color: red;
   font-family: Arial;
   font-weight: bold;
   border-bottom: 1px solid darkseagreen;
 }
 .np{
-  float: right;
+  float: left;
+   margin-left: 750px;
   margin-top: 20px;
 }
 .np .bt1{
@@ -2512,7 +2540,7 @@ figure {
   width: 800px;
   height: 430px;
   border: 1px solid black;
-  margin: 50px 70px;
+  margin-top: 20px;
 }
 
 /*user scenario*/
@@ -2525,31 +2553,26 @@ figure {
 .vetay{
   width: 900px;
   height: 550px;
-  margin: 50px 100px
+  margin-top: 20px;
 
 }
 
 .vetay .imgds{
-
   float: left;
   margin-left: 100px;
 }
 .vetay .download{
   float: left;
-  margin-left: 100px;
   background: green;
-
   border-style: none;
   width: 100px;
+  margin:200px 20px;
   height: 50px;
 }
-
-
-
 .thietkefgm{
   width: 900px;
   height: 450px;
-  margin: 50px 100px
+  margin: 20px
 
 }
 
@@ -2559,7 +2582,7 @@ figure {
 }
 .thietkefgm .download{
   float: left;
-  margin-left: 50px;
+  margin:200px 20px;
   background: green;
   border-style: none;
   width: 100px;
@@ -2567,8 +2590,7 @@ figure {
 }
 .all{
   width:450px;
-  margin-left: 110px;
-  height: 100px;
+  height: 80px;
 }
 .all .dl_all{
   margin-top: 10px;
@@ -2579,16 +2601,13 @@ figure {
   margin-left: 50px;
 
 }
-.nav-tabs{
-  height: 40px;
-  margin-left: 10px;
-  border-bottom: 1px solid lightgrey;
 
-}
+
 .content{
   margin-left: 30px;
 }
 .tab-pane{
+    width: 900px;
   margin-left: 30px;
 }
 .tab-content{
@@ -2597,11 +2616,7 @@ figure {
 
 
 
-.nav>li>a{
-  position: relative;
-  display: block;
-  padding: 10px 15px;
-}
+
 .im1{
   width: 1500px;
   position: relative;
@@ -2609,7 +2624,7 @@ figure {
 
 .header{
   height: 70px;
-  width: 1150px;
+  width: 1030px;
   background-color: #CCCCCC;
   position: relative;
 
@@ -2619,7 +2634,7 @@ position: absolute;
   top: 15px;
   margin-left: 30px;
   color: #2e4018;
-  font-size: 25px;
+  font-size: 20px;
   font-weight: bold;
 
 
@@ -2628,7 +2643,7 @@ position: absolute;
   float: left;
   position: absolute;
   top: 17px;
-  left: 1030px;
+  left: 930px;
   background: #2e6e9e;
   color: white;
 }
@@ -2636,7 +2651,7 @@ position: absolute;
   float: left;
   position: absolute;
   top: 15px;
-  left: 750px;
+  left: 650px;
   width: 270px;
 }
 .bd{
@@ -2644,7 +2659,7 @@ position: absolute;
 }
 .tc{
   float: left;
-  font-size: 17px;
+  font-size: 15px;
   color: #1c7430;
 
 }
@@ -2652,19 +2667,20 @@ position: absolute;
   float: left;
   font-weight: bold;
   color: #1c7430;
-  font-size: 17px;
+  font-size: 15px;
 }
 .tt{
   height: 1200px;
   float: left;
-  margin-left: -100px;
+  margin-left: -48px;
+    width: 700px;
 }
 .nb{
   width: 520px;
   margin-bottom: 20px;
 }
 .tinnb{
-  font-size: 18px;
+  font-size: 15px;
   font-weight: bold;
 }
 .tinnb:hover{
@@ -2676,6 +2692,7 @@ position: absolute;
 .tin1{
   height: 210px;
   width: 800px;
+    /*margin-left: 50px;*/
 }
 .hin2{
   float: left;
@@ -2697,6 +2714,8 @@ width: 300px;
 .lon{
   width: 1400px;
   left: 100px;
+  height: 1300px;
+  margin-left: 50px;
 
 }
 .tinnong{
@@ -2720,11 +2739,182 @@ font-weight: bold;
   width: 200px;
   margin: 20px 50px;
   border-bottom: 2px solid green;
+  font-size: 14px;
 
 }
 .noi:hover{
   color: red;
 }
+.mn ul{
+    list-style-type: none;
+}
+.mn li{
+    float: left;
+    margin-top: 10px;
+    color: white;
+}
+#im2{
+    height: 1250px;
+width: 1050px;
 
+}
+.kh{
+  background: #2e6e9e;
+  height: 50px;
+    width: 970px;
+}
+.header2{
+    float: left;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    margin: 10px 50px;
+}
+.mn{
+    float: left;
+    margin-left: 250px;
+}
+.e2_dn{
+  float: left;
+  margin-top: 6px;
+  width: 120px;
+  height: 38px;
+  border-radius: 5px;
 
+}
+.mn li a{
+    color: white;
+}
+.sl_ex2{
+  margin-left: 35px;
+  margin-top: 20px;
+  height: 350px;
+}
+.nd1{
+  width: 850px;
+  font-weight: bold;
+  font-size: 15px;
+}
+.nd1:hover{
+  color: #1c7430;
+}
+.muc{
+  width: 100%;
+}
+.muc1{
+  width: 200px;
+  float: left;
+  margin-left: 30px;
+}
+.xt>a{
+  width: 200px;
+  margin: 0px;
+}
+.cd{
+  font-weight: bold;
+  color: #1c7430;
+  font-size: 15px;
+}
+.tb {
+  font-size: 17px;
+}
 
+.bd{
+  font-size: 14px;
+}
+/*tab lab1*/
+a:hover,a:focus{
+  text-decoration: none;
+  outline: none;
+}
+.tab .nav-tabs{
+  border: none;
+  border-bottom: 2px solid #37AA3D;
+  /*margin: 0;*/
+    margin-left: 30px;
+}
+.tab .nav-tabs li a{
+  padding: 10px 20px;
+  margin: 0 10px -1px 0;
+  font-size: 17px;
+  font-weight: 600;
+  color: #293241;
+  text-transform: uppercase;
+  border: 2px solid #e6e5e1;
+  border-bottom: none;
+  border-radius: 5px 5px 0 0;
+  z-index: 1;
+  position: relative;
+  transition: all 0.3s ease 0s;
+}
+.tab .nav-tabs li a:hover,
+.tab .nav-tabs li.active a{
+  background: #fff;
+  color: #37AA3D;
+  border: 2px solid #37AA3D;
+  border-bottom-color: transparent;
+}
+.tab .nav-tabs li a:before{
+  content: "";
+  display: block;
+  height: 2px;
+  background: #fff;
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  right: 0;
+  transform: scaleX(0);
+  transition: all 0.3s ease-in-out 0s;
+}
+.tab .nav-tabs li.active a:before,
+.tab .nav-tabs li a:hover:before{ transform: scaleX(1); }
+.tab .tab-content{
+  padding: 10px;
+  font-size: 15px;
+  color: #6f6f6f;
+  line-height: 30px;
+  letter-spacing: 1px;
+  position: relative;
+}
+@media only screen and (max-width: 479px){
+  .tab .nav-tabs{ border: none; }
+  .tab .nav-tabs li{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  .tab .nav-tabs li a{
+    margin: 0;
+    border-bottom: 2px solid transparent;
+  }
+  .tab .nav-tabs li a:before{
+    content: "";
+    width: 100%;
+    height: 2px;
+    background: #37AA3D;
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+  }
+}
+.re{
+  width: 700px;
+  margin-left: -10px;
+  font-size: 14px;
+}
+.chu{
+  font-size: 15px;
+    margin-left: -10px;
+}
+/*Design lab3*/
+.mf1{
+  float: left;
+}
+.dl_mf1{
+  float: left;
+  background: green;
+  /*color: white;*/
+  margin-left: 20px;
+  margin-top: 200px;
+  width: 100px;
+}

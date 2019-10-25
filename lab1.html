@@ -4,6 +4,9 @@
 <head>
   <title>Pham Thanh Ngoc Dao</title>
   <meta charset="utf-8">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
@@ -110,270 +113,277 @@
     
     </div>
 
+
     <div class="site-section">
       <div class="container">
         <div class="row">
           <div class="container">
             <ul class="nav nav-tabs">
-              <li class="active"><a href="#" >Lab1</a></li>
-              <li ><a href="lab2.html" >Lab2</a></li>
-              <li><a href="lab3.html" >Lab3</a></li>
-              <li><a href="#lab4">Lab4</a></li>
+              <li class="active"><a href="lab1.html">LAB1</a></li>
+              <li ><a href="lab2.html" >LAB2</a></li>
+              <li><a href="lab3.html" >LAB3</a></li>
+              <li><a href="#lab4">LAB4</a></li>
             </ul>
-            <div class="tab-content">
-              <div id="lab1" class="tab-pane active">
-                <h3 style="margin: 10px 60px;">Lab1</h3>
-                <ul class="nav-tabs">
-                  <li class="active">
-                    <a data-toggle="tab" href="#requirement" class="active" style="padding: 10px ;">Requirement</a></li>
-                  <li><a data-toggle="tab" href="#design" class="" style="padding: 10px ;">Design</a></li>
-                  <li><a data-toggle="tab" href="#implement" class="" style="padding: 10px ;">Implement</a></li>
-                </ul>
-                <div class="tab-content">
-                  <div id="requirement" class="tab-pane active">
-                    <h3  style="margin-left: 30px">Requirement</h3>
-                    <p  style="margin-left: 30px">Yêu cầu: Chọn 1 đối tượng bất kỳ trong thế giới thực, ví dụ
-                      như sinh viên, môn học, giảng viên,… để thiết kế trên phần
-                      mềm một chức năng trên web để thêm, sửa, xóa, tìm kiếm
-                      cho đối tượng đó.</p>
-                  </div>
-                  <div id="design" class="tab-pane">
-                    <br>
-                    <h3 style="margin-top: 60px ; margin-left: 50px; font-size: 20px">Design</h3>
-                    <div id="page_ds">
-                      <div id="design_1">
-                        <div id="head_ds1">
-                          Download file thiết trên giấy
-                        </div>
-                        <div id="pic_1">
-                          <div id="background_1"><img src="images/anh_chinh.jpg" height="500" width="500"/>
+<!--            <br>-->
+            <div class="container">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="tab" role="tabpanel">
+                    <!-- Nav tabs -->
+                    <ul class="nav nav-tabs" role="tablist">
+                      <li role="presentation" class="active"><a href="#Section1" aria-controls="home" role="tab" data-toggle="tab">Requirements</a></li>
+                      <li role="presentation"><a href="#Section2" aria-controls="profile" role="tab" data-toggle="tab">Design</a></li>
+                      <li role="presentation"><a href="#Section3" aria-controls="messages" role="tab" data-toggle="tab">Implement</a></li>
+                    </ul>
+                    <!-- Tab panes -->
+                    <div class="tab-content tabs">
+                      <div role="tabpanel" class="tab-pane active" id="Section1">
+                        <p class="re">Yêu cầu: Chọn 1 đối tượng bất kỳ trong thế giới thực, ví dụ
+                          như sinh viên, môn học, giảng viên,… để thiết kế trên phần
+                          mềm một chức năng trên web để thêm, sửa, xóa, tìm kiếm
+                          cho đối tượng đó.</p>
+                      </div>
+                      <div role="tabpanel" class="tab-pane fade" id="Section2">
+                        <div id="page_ds" class="re">
+                          <div id="design_1">
+                            <div id="head_ds1">
+                             + Thiết kế trên giấy
+                            </div>
+                            <div id="pic_1">
+                              <div id="background_1"><img src="images/anh_chinh.jpg" height="500" width="600"/>
+                              </div>
+                              <button class="down_pic1"><a class="down_1" href="images/anh_chinh.jpg" download="images/anh_chinh.jpg">Download</a></button>
+                            </div>
                           </div>
-                          <button class="down_pic1"><a class="down_1" href="images/anh_chinh.jpg" download="images/anh_chinh.jpg">Download</a></button>
-                        </div>
-                      </div>
 
-                      <div id="design_2">
-                        <div id="head_ds2">
-                          Download file thiết trên figma 1
-                        </div>
-                        <div id="pic_2">
-                          <div id="background_2">
+                          <div id="design_2">
+                            <div id="head_ds2">
+                            + Thiết kế trên figma 1
+                            </div>
+                            <div id="pic_2">
+                              <div id="background_2">
 
-                            <img src="images/anh_chinh.png" height="400" width="600"/></div>
-                          <button class="down_pic1"><a class="down_1" href="images/lab1_1.fig" download="images/lab1_1.fig">Download</a></button>
-                        </div>
-                      </div>
 
-                      <div id="design_3">
-                        <div id="head_ds3">
-                          Download file thiết kế trên figma 2
-                        </div>
-                        <div id="pic_3">
-                          <div id="background_3">
-                              <img src="images/them.png" height="300" width="400"/></div>
-                          <button class="down_pic1"><a class="down_1" href="images/lab1_2.fig" download="images/lab1_2.fig">Download</a></button>
-                        </div>
-                      </div>
-
-                      <div id="design_4">
-                        <div id="head_ds4">
-                          Download file thiết kế trên figma 3
-                        </div>
-                        <div id="pic_4">
-                          <div id="background_4">
-
-                              <img src="images/sua.png" height="300" width="400"/></div>
-                          <button class="down_pic1"><a class="down_1" href="images/lab1_3.fig" download="images/lab1_3.fig">Download</a></button>
-                        </div>
-                      </div>
-
-                      <div id="design_5">
-                        <div id="head_ds5">
-                          Download file design trên figma 4
-                        </div>
-                        <div id="pic_5">
-                          <div id="background_5">
-                              <img src="images/xoa.png" height="300" width="400"/>
+                                <img src="images/tkfm_l1.png" height="400" width="600"/></div>
+                              <button class="down_pic1"><a class="down_1" href="images/lab1_1.fig" download="images/lab1_1.fig">Download</a></button>
+                            </div>
                           </div>
-                          <button class="down_pic1"><a class="down_1" href="images/lab1_4.fig" download="images/lab1_4.fig">Download</a></button>
-                        </div>
-                      </div>
 
-                      <div id="download_all">
-                        <button class="down_all"><a class="down_1" href="images/17130021_design.rar" download="images/17130021_design.rar">Download All</a></button>
-                      </div>
-                    </div>
-                  </div>
-                  <div id="implement" class="tab-pane">
-                    <br>
-                    <h3 style="margin-top: 60px; margin-left: 50px; font-size: 20px">Implement</h3>
-                    <div id="content_chinh">
-                      <div id="content_con1">
-                        <div id="head">
-                          Cửa Hàng Bán Thức Ăn Nhanh
-                        </div>
-                        <div id="nav_add_find">
-                          <div class="alpha">
-                            <input type="button" class="bt_them" value="Thêm">
+                          <div id="design_3">
+                            <div id="head_ds3">
+                             + Thiết kế trên figma 2
+                            </div>
+                            <div id="pic_3">
+                              <div id="background_3">
+                                <img src="images/fg_them.png" height="300" width="600"/></div>
+                              <button class="down_pic1"><a class="down_1" href="images/lab1_2.fig" download="images/lab1_2.fig">Download</a></button>
+                            </div>
                           </div>
-                          <div class="omega">
-                            <input type="text"  id="t_timkiem"  value="Nhập thông tin sản phẩm" >
-                            <input type="button" class="bt_timkiem" value="Tìm Kiếm">
+
+                          <div id="design_4">
+                            <div id="head_ds4">
+                             + Thiết kế trên figma 3
+                            </div>
+                            <div id="pic_4">
+                              <div id="background_4">
+
+                                <img src="images/fg_sua.png" height="350" width="600"/></div>
+                              <button class="down_pic1"><a class="down_1" href="images/lab1_3.fig" download="images/lab1_3.fig">Download</a></button>
+                            </div>
+                          </div>
+
+                          <div id="design_5">
+                            <div id="head_ds5">
+                              + Thiết kế trên figma 4
+                            </div>
+                            <div id="pic_5">
+                              <div id="background_5">
+                                <img src="images/fg_xoa.png" height="190" width="500"/>
+                              </div>
+                              <button class="down_pic1"><a class="down_1" href="images/lab1_4.fig" download="images/lab1_4.fig">Download</a></button>
+                            </div>
+                          </div>
+
+                          <div id="download_all">
+                            <div id="head_ds6">
+                              + Nút download all file
+                            </div>
+                            <button class="down_all"><a class="down_1" href="images/17130021_design.rar" download="images/17130021_design.rar">Download All</a></button>
                           </div>
                         </div>
-                        <div id="nav_table">
-                          <table class="table1" border="1" style="width: 800px; height: 30px">
-                            <tr>
-                              <th>Mã sản phẩm</th>
-                              <th>Tên sản phẩm</th>
-                              <th>Đơn giá</th>
-                              <th>Chức năng</th>
-                            </tr>
-                            <tr>
-                              <td>6534</td>
-                              <td>Shakechicken</td>
-                              <td>43,000đ</td>
-                              <td>
-                                <button class="button" style="width: 43px; height: 33px; ">
-                                  Xóa
-                                </button>
-                                <button  class="button" style="width: 43px; height: 33px; ">
-                                 Sửa
-                                </button>
-                              </td>
-                            </tr>
-                            <tr>
-                              <td>4378</td>
-                              <td>Shake Patato</td>
-                              <td>39,000đ</td>
-                              <td>
-                                  <button class="button" style="width: 43px; height: 33px; ">
+                      </div>
+                      <div role="tabpanel" class="tab-pane fade" id="Section3">
+                        <div id="content_chinh">
+                          <div id="content_con1">
+                            <div id="head">
+                              Cửa Hàng Bán Thức Ăn Nhanh
+                            </div>
+                            <div id="nav_add_find">
+                              <div class="alpha">
+                                <input type="button" class="bt_them" value="Thêm">
+                              </div>
+                              <div class="omega">
+                                <input type="text"  id="t_timkiem"  value="Nhập thông tin sản phẩm" >
+                                <input type="button" class="bt_timkiem" value="Tìm Kiếm">
+                              </div>
+                            </div>
+                            <div id="nav_table">
+                              <table class="table1" border="1" style="width: 800px; height: 30px">
+                                <tr>
+                                  <th>STT</th>
+                                  <th>Mã sản phẩm</th>
+                                  <th>Tên sản phẩm</th>
+                                  <th>Đơn giá</th>
+                                  <th>Chức năng</th>
+                                </tr>
+                                <tr>
+                                  <td>1</td>
+                                  <td>6534</td>
+                                  <td>Shakechicken</td>
+                                  <td>43,000đ</td>
+                                  <td>
+                                    <button class="button" style="width: 43px; height: 29px;margin-left: 45px ">
                                       Xóa
-                                  </button>
-                                  <button  class="button" style="width: 43px; height: 33px; ">
+                                    </button>
+                                    <button  class="button" style="width: 43px; height: 29px;margin-left: 25px ">
                                       Sửa
-                                  </button>
-                              </td>
-                            </tr>
-
-                            <tr>
-                              <td>6327</td>
-                              <td>H&S Chicken</td>
-                              <td>37,000đ</td>
-                              <td>
-                                  <button class="button" style="width: 43px; height: 33px; ">
+                                    </button>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td>2</td>
+                                  <td>4378</td>
+                                  <td>Shake Patato</td>
+                                  <td>39,000đ</td>
+                                  <td>
+                                    <button class="button" style="width: 43px; height: 29px;margin-left: 45px ">
                                       Xóa
-                                  </button>
-                                  <button  class="button" style="width: 43px; height: 33px; ">
+                                    </button>
+                                    <button  class="button" style="width: 43px; height: 29px;margin-left: 25px ">
                                       Sửa
-                                  </button>
-                            </tr>
+                                    </button>
+                                  </td>
+                                </tr>
 
-                            <tr>
-                              <td>2364</td>
-                              <td>Chicken Burger</td>
-                              <td>43,000đ</td>
-                              <td>
-                                  <button class="button" style="width: 43px; height: 33px; ">
+                                <tr>
+                                  <td>3</td>
+                                  <td>6327</td>
+                                  <td>H&S Chicken</td>
+                                  <td>37,000đ</td>
+                                  <td>
+                                    <button class="button" style="width: 43px; height: 29px;margin-left: 45px ">
                                       Xóa
-                                  </button>
-                                  <button  class="button" style="width: 43px; height: 33px; ">
+                                    </button>
+                                    <button  class="button" style="width: 43px; height: 29px; margin-left: 25px">
                                       Sửa
-                                  </button>
-                              </td>
-                            </tr>
-                            <tr>
-                              <td>1263</td>
-                              <td>Soy Bean Chicken</td>
-                              <td>37,000đ</td>
-                              <td>
-                                  <button class="button" style="width: 43px; height: 33px; ">
+                                    </button>
+                                </tr>
+
+                                <tr>
+                                  <td>4</td>
+                                  <td>2364</td>
+                                  <td>Chicken Burger</td>
+                                  <td>43,000đ</td>
+                                  <td>
+                                    <button class="button" style="width: 43px; height: 29px;margin-left: 45px ">
                                       Xóa
-                                  </button>
-                                  <button  class="button" style="width: 43px; height: 33px; ">
+                                    </button>
+                                    <button  class="button" style="width: 43px; height: 29px;margin-left: 25px ">
                                       Sửa
-                                  </button>
-                              </td>
-                            </tr>
+                                    </button>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td>5</td>
+                                  <td>1263</td>
+                                  <td>Soy Bean Chicken</td>
+                                  <td>37,000đ</td>
+                                  <td>
+                                    <button class="button" style="width: 43px; height: 29px; margin-left: 45px">
+                                      Xóa
+                                    </button>
+                                    <button  class="button" style="width: 43px; height: 29px; margin-left: 25px">
+                                      Sửa
+                                    </button>
+                                  </td>
+                                </tr>
 
-                          </table>
-                        </div>
+                              </table>
+                            </div>
 
-                      </div>
-                      <div id="content_con2">
-                        <div id="head1">
-                          Thêm Sản Phẩm
-                        </div>
-                        <div class="r">
-                          <div class="row">
-                            <p>-Mã sản phẩm:</p>
-                            <input type="text"  class="text1" value="Nhập mã cần thêm">
                           </div>
-                          <div class="row">
-                            <p>-Tên sản phẩm:</p>
-                            <input type="text"  class="text1" value="Nhập tên cần thêm"><br>
+                          <div id="content_con2">
+                            <div id="head1">
+                              + Thêm Sản Phẩm
+                            </div>
+                            <div class="r">
+                              <div class="row">
+                                <p>-Mã sản phẩm:</p>
+                                <input type="text"  class="text1"  style="margin-left: 60px" value="Nhập mã cần thêm">
+                              </div>
+                              <div class="row">
+                                <p>-Tên sản phẩm:</p>
+                                <input type="text"  class="text1" style="margin-left: 55px" value="Nhập tên cần thêm"><br>
+                              </div>
+                              <div class="row">
+                                <p>-Đơn giá:</p>
+                                <input type="text"  class="text" value="Nhập đơn giá cần thêm"><br>
+                              </div>
+                            </div>
+                            <div id="bt_all">
+                              <input type="button" class="bt" value="+ Thêm">
+                              <input type="button" class="bt" value="Xóa form">
+                              <input type="button" class="bt" value="Quay lại">
+                            </div>
                           </div>
-                          <div class="row">
-                            <p>-Đơn giá:</p>
-                            <input type="text"  class="text" value="Nhập đơn giá cần thêm"><br>
+                          <div id="content_con3">
+                            <div id="head2">
+                             + Sửa Thông Tin Sản Phẩm
+                            </div>
+                            <div class="r">
+                              <div class="row">
+                                <p>-Mã sản phẩm:</p>
+                                <input type="text" class="text1"  style="margin-left: 60px" value="Nhập mã cần thêm">
+                              </div>
+                              <div class="row">
+                                <p>-Tên sản phẩm:</p>
+                                <input type="text"  class="text1" style="margin-left: 55px" value="Nhập tên cần thêm">
+                              </div>
+                              <div class="row">
+                                <p>-Đơn giá:</p>
+                                <input type="text"  class="text" value="Nhập đơn giá cần thêm">
+                              </div>
+                            </div>
+                            <div id="bt_all_sua">
+                              <input type="button" class="bt" value="Sửa">
+                              <input type="button" class="bt" value="Xóa form">
+                              <input type="button" class="bt" value="Quay lại">
+                            </div>
                           </div>
-                        </div>
-                        <div id="bt_all">
-                          <input type="button" class="bt" value="+ Thêm">
-                          <input type="button" class="bt" value="Xóa form">
-                          <input type="button" class="bt" value="Quay lại">
-                        </div>
-                      </div>
-                      <div id="content_con3">
-                        <div id="head2">
-                          Sửa Thông Tin Sản Phẩm
-                        </div>
-                        <div class="r">
-                          <div class="row">
-                            <p>-Mã sản phẩm:</p>
-                            <input type="text" class="text1" value="Nhập mã cần thêm">
-                          </div>
-                          <div class="row">
-                            <p>-Tên sản phẩm:</p>
-                            <input type="text"  class="text1" value="Nhập tên cần thêm">
-                          </div>
-                          <div class="row">
-                            <p>-Đơn giá:</p>
-                            <input type="text"  class="text" value="Nhập đơn giá cần thêm">
-                          </div>
-                        </div>
-                        <div id="bt_all_sua">
-                          <input type="button" class="bt" value="Sửa">
-                          <input type="button" class="bt" value="Xóa form">
-                          <input type="button" class="bt" value="Quay lại">
-                        </div>
-                      </div>
-                      <div id="content_con4">
-                        <div id="head3">
-                          Xóa Sản Phẩm
-                        </div>
-                        <div id="nav_text">
-                          <p>Hãy click vào button xóa để nhận được thông báo</p>
-                        </div>
-                        <div id="nav_bt_xoa">
-                          <input type="button" class="bt_xoa" value="Xóa">
-                          <input type="button" class="bt_ql_xoa" value="Quay lại">
-                        </div>
+                          <div id="content_con4">
+                            <div id="head3">
+                              + Xóa Sản Phẩm
+                            </div>
+                            <div id="nav_text">
+                              <p>Hãy click vào button xóa để nhận được thông báo</p>
+                            </div>
+                            <div id="nav_bt_xoa">
+                              <input type="button" class="bt_xoa" value="Xóa">
+                              <input type="button" class="bt_ql_xoa" value="Quay lại">
+                            </div>
 
+                          </div>
+                        </div>
+                      </div>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-
-
           </div>
-
-
-
         </div>
-        
+
       </div>
     </div>
     <div class="footer">

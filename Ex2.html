@@ -4,6 +4,9 @@
 <head>
     <title>Pham Thanh Ngoc Dao</title>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
@@ -117,55 +120,164 @@
             <div class="row">
                 <div class="container">
                     <ul class="nav nav-tabs">
-                        <li  ><a  href="lab1.html">Lab1</a></li>
-                        <li><a  href="lab2.html">Lab2</a></li>
-                        <li class="active"><a  href="lab3.html">Lab3</a></li>
-                        <li><a  href="lab4.html">Lab4</a></li>
+                        <li  ><a  href="lab1.html">LAB1</a></li>
+                        <li><a  href="lab2.html">LAB2</a></li>
+                        <li class="active"><a  href="lab3.html">LAB3</a></li>
+                        <li><a  href="lab4.html">LAB4</a></li>
                     </ul>
-                        <h3 style="margin: 10px 90px;">Lab3</h3>
-                    <div class="tab-content" >
-                        <div id="lab3" class="tab-pane fade in active show">
-                            <div class="content" >
-                                <ul class="nav nav-tabs" role="tablist">
-                                    <li class="active" >
-                                        <a data-toggle="tab" href="#requirement3">Requirement</a>
-                                    </li>
-                                    <li><a  href="Ex1.html">Exercise1</a></li>
-                                    <li><a href="Ex2.html">Exercise2</a></li>
-                                </ul>
-                                <div class="tab-content">
-                                    <div id="requirement3" class="tab-pane fade ">
-                                        <h3>Requirement</h3>
-                                        <p >Thiết kế 1 trang web đơn giản sử dụng mẫu Z-pattern ==> chuyển sang html(Ex2.html)</p>
-                                    </div>
+<!--                    <br>-->
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="tab" role="tabpanel">
+                                    <!-- Nav tabs -->
+                                    <ul class="nav nav-tabs" role="tablist">
+                                        <li role="presentation"><a href="#requirement" aria-controls="home" role="tab" data-toggle="tab">Requirement</a></li>
+                                        <li role="presentation" ><a href="Ex1.html" aria-controls="profile" role="tab" >Exercise_1</a></li>
+                                        <li role="presentation" class="active"><a href="Ex2.html" aria-controls="messages" role="tab">Exercise_2</a></li>
+                                    </ul>
+                                    <br>
+                    <!-- Tab panes -->
+                    <div class="tab-content tabs">
+                        <div role="tabpanel" class="tab-pane fade" id="requirement">
+                            <p>Trong menu Labs, tạo 1 menu Lab3(File lab3.html) sau đó tạo 2 tab Ex1, Ex2.</p>
+                            <p><span style="font-weight: bold">Ex1:</span> Thiết kế 1 trang web đơn giản sử dụng mẫu F-pattern ==> chuyển sang html(Ex1.html)</p>
+                            <p><span style="font-weight: bold">Ex2:</span> Thiết kế 1 trang web đơn giản sử dụng mẫu Z-pattern ==> chuyển sang html(Ex2.html)</p><br>
+                            <p>Với cả <span>Ex1 Ex2:</span>Tạo 2 tab Design và Implementation:</p>
+                            <p><span style="font-weight: bold">Design: </span>chụp hình ảnh để có cái nhìn tổng quan về file thiết kế, có nút download để download file thiết kế về nếu muốn. </p>
+                            <p>Implementation: nội dung phần hiện thực lên html.</p>
+                            <br>
+                            <p>Uplaod lên Azure/Github</p>
+                        </div>
+                        <div role="tabpanel" class="tab-pane active" id="exercise_2">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="tab" role="tabpanel">
+                                            <!-- Nav tabs -->
+                                            <ul class="nav nav-tabs" role="tablist">
+                                                <li role="presentation" class="active"><a href="#Section1" aria-controls="home" role="tab" data-toggle="tab">Requirement</a></li>
+                                                <li role="presentation"><a href="#Section2" aria-controls="profile" role="tab" data-toggle="tab">Design</a></li>
+                                                <li role="presentation"><a href="#Section3" aria-controls="messages" role="tab" data-toggle="tab">Implement</a></li>
+                                            </ul>
 
-                                    <div id="exercise_1" class="tab-pane fade in active show "><br>
-                                        <h3 style="margin-left: 20px">Exercise2</h3>
-                                        <ul class="nav nav-tabs" role="tablist">
-                                            <li class="active" >
-                                                <a data-toggle="tab" href="#design_ex_2">Design</a>
-                                            </li>
-                                            <li><a data-toggle="tab" href="#implement_ex_2">Implement</a></li>
 
-                                        </ul>
-                                        <div class="tab-content">
-                                            <div id="design_ex_2" class="tab-pane fade in active show">
-                                                <h3>Design</h3>
-                                                <p></p>
-                                            </div>
-                                            <div id="implement_ex_2" class="tab-pane fade ">
-                                                <h3>Implement</h3>
-                                                <p></p>
+                                            <!-- Tab panes -->
+                                            <div class="tab-content tabs">
+                                                <div role="tabpanel" class="tab-pane active" id="Section1">
+                                                    <p class="chu">Thiết kế 1 trang web đơn giản sử dụng mẫu Z-pattern ==> chuyển sang html(Ex2.html)</p>
+                                                </div>
+                                                <div role="tabpanel" class="tab-pane fade" id="Section2">
+                                                    <p class="re">+Mẫu Z-pattern</p>
+                                                    <div class="mf">
+                                                        <div class="mf1">
+                                                            <img src="images/fg_ex2.png" height="500" width="600"/>
+                                                        </div>
+                                                    </div>
+                                                    <button class="dl_mf1" ><a  href="images/lab3_ex2.fig"  style="color: white" download="images/lab3_ex2.fig">Download</a> </button>
+                                                </div>
+                                                <div role="tabpanel" class="tab-pane fade" id="Section3">
+                                                    <p class="chu">
+                                                        +Mẫu: Z-pattern
+                                                    </p>
+                                                    <div id="im2">
+                                                        <div class="kh">
+                                                            <div class="header2">
+                                                                <div class=td_ex2>TRAVEL</div>
+                                                            </div>
+                                                            <div class="mn">
+                                                                <ul class="tab_mn">
+                                                                    <li><a href="#">Home</a></li>
+                                                                    <li><a href="#">Tin tức</a></li>
+                                                                </ul>
+                                                            </div>
+                                                            <div class="bt_e2_dn">
+                                                                <button class="e2_dn" style="  color: #2e6e9e; font-weight: bold">Đăng nhập</button>
+                                                            </div>
+
+                                                        </div>
+                                                        <div class="sl_ex2">
+                                                            <div class="img1_ex2">
+                                                                <img src="images/anhdep.jpg" height="300" width="900"/>
+                                                            </div>
+                                                            <p class="nd1">Tìm hiểu nước Úc hiện đại và đáng sống tại Triển lãm Du học T.H.E. Education Fair 2018</p>
+                                                        </div>
+                                                        <div class="muc">
+                                                            <div class="muc1">
+                                                                <p class="cd">Tp Hồ Chí Minh</p>
+                                                                <div class="hi_muc1">
+                                                                    <img src="images/hcm.jpg" height="150" width="200"/>
+                                                                </div>
+                                                                <p class="nd_muc1">
+                                                                    Với tốc độ phát triển nhanh và cuộc sống luôn sôi động đã khiến cho
+                                                                    thành phố Hồ Chí Minh trở thành một trong những địa danh hấp dẫn du khách nhất Việt Nam.
+                                                                    Cách tốt nhất để được hòa nhập vào không khí vui vẻ của những con phố luôn
+                                                                    đông đúc nghẹt thở là ngồi lại và nhâm nhi tách cà phê tại một quán cà phê vỉa hè.
+                                                                </p>
+                                                                <div class="xt">
+                                                                    <a href="#" style="font-weight: bold">Xem thêm >></a>
+                                                                </div>
+                                                            </div>
+                                                            <div class="muc1">
+                                                                <p class="cd">Hà Giang</p>
+                                                                <div class="hi_muc1">
+                                                                    <img src="images/hg.jpg" height="150" width="200px"/></div>
+                                                                <p class="nd_muc1">
+                                                                    Những con đường hẹp, cong cong uốn khúc quanh những ngọn núi gồ ghề và thung lũng xanh mướt của vùng cực Bắc,
+                                                                    Việt Nam sẽ khiến bạn sững sờ trước vẻ đẹp tuyệt diệu của mảnh đất hoang sơ này. Khi đến đây, du khách sẽ bị lãng quên
+                                                                    trước cảnh quan hùng vĩ của thiên nhiên và các làng dân tộc thiểu số đầy màu sắc rực rỡ.
+                                                                </p>
+                                                                <div class="xt">
+                                                                    <a href="#" style="font-weight: bold">Xem thêm >></a>
+                                                                </div>
+
+                                                            </div>
+
+                                                            <div class="muc1">
+                                                                <p class="cd">Phú Quốc</p>
+                                                                <div class="hi_muc1"><img src="images/pq.jpg" height="150" width="200px"/></div>
+                                                                <p class="nd_muc1">
+                                                                    Nằm ở Vịnh Thái Lan, Phú Quốc là một không gian thư giãn còn rất hoang sơ và chưa được khai thác nhiều.
+                                                                    Đến với Phú Quốc, du khách sẽ cảm thấy hài lòng khi được dạo bước trên bờ biển với bãi cát trắng chạy dài,
+                                                                    những cây dừa nghiêng bóng trên mặt
+                                                                    nước xanh ngắt và cảnh hoàng hôn vô cùng ngoạn mục.
+                                                                </p>
+                                                                <div class="xt">
+                                                                    <a href="#" style="font-weight: bold">Xem thêm >></a>
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="muc1">
+                                                                <p class="cd">Vịnh Hạ Long</p>
+                                                                <div class="hi_muc1">
+                                                                    <img src="images/vhl.jpg" height="150" width="200"/>
+                                                                </div>
+
+                                                                <p class="nd_muc1">
+                                                                    Vịnh Hạ Long nằm trong danh sách xếp hạng Di sản Thế giới từ năm 1994. Đây cũng là một trong những địa
+                                                                    danh quyến rũ nhiều du khách đến Việt Nam nhất. Khi mặt trời mọc nhô lên trên nước màu ngọc và các hòn đảo nằm rải rác
+                                                                    trên mặt biển lấp lánh trong ánh nắng đã khiến Hạ Long trở thành cảnh biển đẹp nhất thế giới.
+                                                                </p>
+                                                                <div class="xt">
+                                                                    <a href="#" style="font-weight: bold">Xem thêm >></a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
-
                                 </div>
                             </div>
                         </div>
 
-
                     </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
                 </div>
             </div>
 
@@ -184,8 +296,6 @@
     </div>
     <div class="footer">
         <div class="container">
-
-
             <div class="row">
                 <div class="col-12">
                     <div class="copyright">
