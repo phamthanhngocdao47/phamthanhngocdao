@@ -2518,12 +2518,12 @@ td, th{
 }
 .bt2{
   width: 100px;
-  height: 50px;
+  height: 40px;
   background: dodgerblue;
   border-style: none;
   border-radius: 3px;
   color: white;
-  margin: 40px 550px;
+  margin: 40px 400px;
 }
 .bt_themvaogio{
   background: green;
@@ -3023,13 +3023,13 @@ a:hover,a:focus{
 }
 .lienhe{
   width: 1050px;
-  height: 250px;
+  height: 330px;
   border: 1px solid black;
 }
 .yk_alpha{
   width: 600px;
   float: left;
-  height: 250px;
+  height: 330px;
   margin-left: 20px;
 }
 .h1_hoten{
@@ -3094,4 +3094,12 @@ a:hover,a:focus{
   background:green;
   width: 200px;
   height: 40px;
+}
+.sm{
+  margin: 40px -350px;
+  border-radius: 2px;
+  background: darkgray;
+  color: white;
+  border-style: none;
+  width: 80px;
 }
