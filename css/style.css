@@ -1962,10 +1962,6 @@ figure {
   width: 250px;
   height: 30px;
 }
-td, th{
-    padding: 20px;
-    font-size: 14px;
-}
 #content_con1 .table1{
   color: black;
 }
@@ -3098,7 +3094,7 @@ a:hover,a:focus{
 .sm{
   margin: 40px -350px;
   border-radius: 2px;
-  background: darkgray;
+  background: green;
   color: white;
   border-style: none;
   width: 80px;
