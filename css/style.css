@@ -2824,7 +2824,7 @@ a:hover,a:focus{
 }
 .tab .nav-tabs{
   border: none;
-  border-bottom: 2px solid #37AA3D;
+  border-bottom: 1px solid #adb5bd;
   /*margin: 0;*/
     margin-left: 30px;
 }
@@ -2835,7 +2835,7 @@ a:hover,a:focus{
   font-weight: 600;
   color: #293241;
   text-transform: uppercase;
-  border: 2px solid #e6e5e1;
+  border: 1px solid #e6e5e1;
   border-bottom: none;
   border-radius: 5px 5px 0 0;
   z-index: 1;
@@ -2846,7 +2846,7 @@ a:hover,a:focus{
 .tab .nav-tabs li.active a{
   background: #fff;
   color: #37AA3D;
-  border: 2px solid #37AA3D;
+  border: 1px solid #adb5bd;
   border-bottom-color: transparent;
 }
 .tab .nav-tabs li a:before{
@@ -2886,7 +2886,7 @@ a:hover,a:focus{
     content: "";
     width: 100%;
     height: 2px;
-    background: #37AA3D;
+    background: #adb5bd;
     position: absolute;
     bottom: -2px;
     left: 0;
@@ -2964,6 +2964,21 @@ a:hover,a:focus{
 }
 .breadcrumb{
   width: 300px;
+  float: left;
+}
+.nhap{
+  float: left;
+  margin-left: 50px;
+}
+
+.tim{
+  width: 500px;
+  border-radius: 3px;
+  border: 1px solid #bbbbbb;
+}
+.timkiem-lab4{
+  color: white;
+  background: #008000;
 }
 .sp_l4{
   width: 230px;
@@ -3099,3 +3114,22 @@ a:hover,a:focus{
   border-style: none;
   width: 80px;
 }
+.table{
+  width: 1200px;
+}
+.nhom{
+  font-weight: bold;
+  color: black;
+  font-family: Arial;
+}
+.tccn_lab5{
+  font-weight: bold;
+  color: black;
+  font-size: 16px;
+  font-family: Arial;
+}
+.kienthuc{
+  margin-top: 20px;
+}
+
+
